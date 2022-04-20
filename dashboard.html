@@ -10,21 +10,6 @@
 </head>
 <body>
 
-<style>
-    /* Jhoan los botones que estan despues de un párrafo */
-    p + button{
-        border: 1px solid blue;
-    }
-    /* Emely Selecciona todas los botónes que estan a lado de una imagen*/
-    img~button{
-        border: 1px solid pink;
-    }
-    /* Analy Solo las imagenes que esten directamente dentro de un div*/
-    div > img{
-        border: 1px solid violet;
-    }
-</style>
-
 <!--Analí-->
 <header>
     <img src="images/um.svg" alt="Logo Universidad de Montemorelos">
@@ -47,43 +32,49 @@
 <!--/Analí-->
 
 <!--Kevin-->
-<section id="datosDelAlumno">
-    <section>
-        <div>
-            <img src="images/chicaBonita.jpg" alt="Foto del alumno">
-            <h2 id="nombreAlumno">Nombre del alumno</h2>
-            <p>0000000</p>
-            <h2>No inscrito</h2>
+<div class="container">
+<section id="datosDelAlumno" class="row">
+    <section class="col-xs-12 col-md-7 col-xl-8">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <img src="images/chicaBonita.jpg" alt="Foto del alumno">
+                <h2 id="nombreAlumno">Nombre del alumno</h2>
+                <p>0000000</p>
+                <h2>No inscrito</h2>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div>
+                    <p>Plan académico</p>
+                    <span>Código del plan</span>
+                </div>
+                <div>
+                    <p>Semestre</p>
+                    <span>No. de semestre</span>
+                </div>
+                <div>
+                    <p>Recidencia</p>
+                    <span>Tipo de recidencia</span>
+                </div>
+                <div>
+                    <p>Saldo total</p>
+                    <span>$Saldo</span>
+                </div>
+                <div>
+                    <p>Saldo vencido</p>
+                    <span>$Saldo</span>
+                </div>
+            </div>
         </div>
-        <div>
-            <div>
-                <p>Plan académico</p>
-                <span>Código del plan</span>
-            </div>
-            <div>
-                <p>Semestre</p>
-                <span>No. de semestre</span>
-            </div>
-            <div>
-                <p>Recidencia</p>
-                <span>Tipo de recidencia</span>
-            </div>
-            <div>
-                <p>Saldo total</p>
-                <span>$Saldo</span>
-            </div>
-            <div>
-                <p>Saldo vencido</p>
-                <span>$Saldo</span>
-            </div>
-        </div>
+        
+        
     </section>
-    <aside>
+    <aside class="col-xs-12 col-md-5 col-xl-4 align-self-center">
         <h2>¿Todavía no te has inscrito?</h2>
         <p>Nosotros te ayudaremos en tu proceso de inscripción</p>
         <button>Inscripción</button>
     </aside>
 </section>
+</div>
 <!--/Kevin-->
 
 <!--Emely-->

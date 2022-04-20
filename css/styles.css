@@ -599,7 +599,15 @@
 
 /* /Emely */
 /* Kevin 601-800 */
-
+#datosDelAlumno > section{
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 40px;
+}
+#datosDelAlumno img {
+    width: 100%;
+}
 
 
 
