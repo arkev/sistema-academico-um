@@ -200,7 +200,43 @@
 /* /Jhoan */
 /* Analí 201-400 */
 
+header{
+    font-size: 16px;
+    background-color: #253D95;
+    display: grid;
+    grid-template-columns: 10% 50% 30% 10% ;
+    align-items: center;
+    padding: 0px 100px;
+    margin-bottom: 70px;
+    
+}
 
+header img:last-of-type{
+    border-radius: 50%;
+    size: 16px;
+} 
+
+#Busqueda{
+    border-radius: 50%;
+}
+
+.ejemplo{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin-right: 28px;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Inter', ;
+}
+
+a { 
+    color:white;
+    text-decoration: none;
+    
+}
 
 
 
