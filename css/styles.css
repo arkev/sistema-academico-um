@@ -399,23 +399,23 @@
 
 /* /Analí */
 /* Emely 401-600 */
+#inicioinscripcion {
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 40px;  
+}
+.container .tarjetas{
+    padding: 0.5cm;
+    background-color: #253D95;
+}
+button{
+    background-color: #253D95;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
