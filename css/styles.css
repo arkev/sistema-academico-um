@@ -237,6 +237,7 @@ border-radius: 50%;
 
     #CierrePerfil{
         padding-right: 0px;
+        margin-left: 16px;
     }
 
     #Busqueda{
@@ -691,6 +692,13 @@ body > div.container{
     padding: 5px 30px;
     color: #253D94;
 }
+.navbar-brand{
+    width: 55px;
+}
+nav.bg-dark{
+    background-color: #253D94!important;
+}
+
 @media (min-width: 576px){
     #datosDelAlumno > aside > div{
         margin-left: 1rem;
