@@ -1,44 +1,44 @@
 /* Jhoan 1-200 */
+#UMVirtual{
+    background:url(../images/mockuphandphone.jpg) no-repeat left top;
+    background-size: cover;
+    color:white;
+    padding-top: 60px;
+}
 
+#UMVirtual > div > div > section > div > div.col-6.align-self-center > a:nth-child(2) > img{
+   margin-bottom: 20px;
+}
 
+#UMVirtual > div > div > section > div{
+    margin-bottom: 50px;
+}
 
+#UMVirtual > div > div > section > section{
+    background: white;
+    margin: 1em 1em 80px;
+    padding: 30px;
+    border-radius: 25px;
+    color: #212121;
+}
 
+#UMVirtual > div > div > section > section button{
+    margin-bottom: 0;
+    padding: 4px 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 768px){
+    #UMVirtual{
+        background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
+        background-size: cover;
+    }   
+}
+@media (min-width: 992px){
+    #UMVirtual{
+        background:url(../images/mockuphandphone.jpg) no-repeat left top;
+        background-size: cover;
+    }   
+}
 
 
 
