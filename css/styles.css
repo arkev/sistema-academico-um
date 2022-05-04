@@ -711,6 +711,20 @@ body > div.container{
 nav.bg-dark{
     background-color: #253D94!important;
 }
+footer{
+    background: #253D95;
+    color: white;
+    padding:1.5em 0 1em;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    margin-right: 1em;
+}
+
+
 
 @media (min-width: 576px){
     #datosDelAlumno > aside > div{
@@ -728,6 +742,12 @@ nav.bg-dark{
         padding: 45px;
         color: white;
         text-align: center;
+    }
+    footer a{
+        text-align: left;
+    }
+    footer p{
+        text-align: right;
     }
 }
 @media (min-width: 992px){
