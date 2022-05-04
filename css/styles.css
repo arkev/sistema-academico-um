@@ -425,9 +425,16 @@ border-radius: 50%;
     width: 295px;
     height: 423px;
     text-align: left;
+    align-content: center;
     padding-inline-start: 90px;
     padding: 50px;
+    
 }
+
+p #asuntosprevios,#cargacademica,#pago,#cierre{
+    margin: 22px;
+}
+
 
 #botones > div{
     text-align: center;
@@ -496,26 +503,28 @@ width: 900px;
 color: #c4c4c4;
 }
 
+ aside .fotocoordinador img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px #80808091;
+    max-width: 65px;
+}
+aside div{
+    color: #253D95;
+}
 
+aside .botonenlace {
+    max-width: 47px;
+    margin-bottom: 20px;
+}
 
+.fotocoordinador p{
+    margin-top: 6px;
+    margin-bottom: 0rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#cargacademica > button,#pago > button:nth-child(3),#pago > button:nth-child(4),#cierre > button{
+    width: 215px;
+}
 
 
 
