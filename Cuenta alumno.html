@@ -62,43 +62,68 @@
         </div>
       </nav>
 </header>
-
+<aside>
+    <div class="fotocoordinador">
+        <img src="images/coordinador.jpg" alt="Foto de coordinador">
+        <p>Coordinador</p>
+    </div>
+    <div class="botonenlace">
+        <a> 
+            <img src="images/mensaje.svg" alt="Boton para mensaje al coordinador">
+        </a>
+    </div>
+</aside>
 <body>
+    <section>
+        <div class='container circle-line-container'>
+      
+            <div class='row lined-cir'>
+              <div class="col-3">
+                <div class="circle-yellow">1</div>
+              </div>
+              <div class="col-3"><div class="circle-yellow">2</div></div>
+              <div class="col-3"><div class="circle-yellow">3</div></div>
+              <div class="col-3"><div class="circle-yellow">4</div></div>  
+            </div>
+            <div class="row lined-row"></div>
+        </section>
 
-<section>
+<section >
     <div>
-        <h3>CUENTA DE ALUMNO</h3>
-        <img src="images/Regresar.svg" alt="atras">
-    </div>  
+        <div class="secciondeprocesos">
+            <h3>CUENTA DE ALUMNO</h3>
+            <img src="images/Regresar.svg" alt="atras">
+        </div> 
+    </div> 
 </section>
 
-<section>
-    <div>
-        <img src="images/chicaBonita.jpg" alt="cuentafotoalumno">
+<section class="row justify-content-center">
+    <div class="col-12 col-sm-6 col-lg-4" >
+        <div class="cuentafotoalumno">
+            <img src="images/chicaBonita.jpg" alt="cuentafotoalumno">
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="formulariopagoalumno">
+       
+                <div>
+                    <form>
+                        <input type="text" placeholder="Nombre completo" name="nombrecompleto"><br>
+                        <input type="text" placeholder="Matrícula" name="matrícula"><br>
+                        <input type="text" placeholder="Cantidad a pagar" name="cantidadapagar"><br>
+                    </form>  
+            </div>
     </div>
-    <div>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-             <li>
-               <label for="name">Nombre:</label>
-               <input type="text" id="name" name="user_name">
-            </li>    
-            <ul>
-                <li>
-                  <label for="name">Matrícula:</label>
-                  <input type="text" id="matricula" name="matricula">
-               </li>  
-            <ul>      
-               <li>
-                <label for="name">Cantidad a pagar:</label>
-                <input type="text" id="cantidad" name="cantidadapagar">
-             </li>   
-                  
-    </div>
-    <div>
-        <p>Saldo actual</p>
-        <h4>$</h4>
-        <input type="submit" value="Pagar"/>
+    <div class="col-12 col-sm-6 col-lg-4" >
+        <div>
+            <div class="saldodelalumno">
+                <p>Saldo actual</p>
+                <h2>$</h2>
+            </div>
+            <div>
+                <input type="submit" value="Pagar"/>
+            </div>
+        </div>
     </div>
 </section>
 

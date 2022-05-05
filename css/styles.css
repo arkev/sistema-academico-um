@@ -1,44 +1,44 @@
 /* Jhoan 1-200 */
-#UMVirtual{
-    background:url(../images/mockuphandphone.jpg) no-repeat left top;
-    background-size: cover;
-    color:white;
-    padding-top: 60px;
-}
 
-#UMVirtual > div > div > section > div > div.col-6.align-self-center > a:nth-child(2) > img{
-   margin-bottom: 20px;
-}
 
-#UMVirtual > div > div > section > div{
-    margin-bottom: 50px;
-}
 
-#UMVirtual > div > div > section > section{
-    background: white;
-    margin: 1em 1em 80px;
-    padding: 30px;
-    border-radius: 25px;
-    color: #212121;
-}
 
-#UMVirtual > div > div > section > section button{
-    margin-bottom: 0;
-    padding: 4px 20px;
-}
 
-@media (min-width: 768px){
-    #UMVirtual{
-        background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
-        background-size: cover;
-    }   
-}
-@media (min-width: 992px){
-    #UMVirtual{
-        background:url(../images/mockuphandphone.jpg) no-repeat left top;
-        background-size: cover;
-    }   
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -399,13 +399,30 @@ border-radius: 50%;
 
 /* /Analí */
 /* Emely 401-600 */
+/*Elementos generales*/
+button{
+    background-color: #253D95;
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 4px 40px;
+    margin-bottom: 32px;
+}
+
+/*Inicio de inscripción*/
 #inicioinscripcion {
     background-color:white;
     border-radius: 20px;
-    box-shadow: 0 0 7px 2px #80808091;
-    padding: 70px 130px;  
+    box-shadow: 0 0 10px -3px #80808091;
+    padding: 45px 100px;  
     margin:  20px;  
-    align-items: center;
+    width: 830px;
+    height: 460px;
+    text-align: center;
+    margin-block: 55px 85px;
+    margin-inline: auto;
 }
 
 #Periodo,#Planacademico,#Modalidad{
@@ -416,25 +433,22 @@ border-radius: 50%;
     height: 43px;
     margin: 20px;
     color: #7A828A;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
+/*Proceso de Inscripción*/
 #asuntosprevios,#cargacademica,#pago,#cierre{
     background: #EDF2F7;
     margin: 10px;
-    box-shadow: 0 0 3px 1px #80808091; 
+    box-shadow: 0 0 8px -2px #80808091; 
     width: 295px;
     height: 423px;
     text-align: left;
     align-content: center;
     padding-inline-start: 90px;
-    padding: 50px;
-    
+    padding: 50px;   
 }
-
-p #asuntosprevios,#cargacademica,#pago,#cierre{
-    margin: 22px;
-}
-
 
 #botones > div{
     text-align: center;
@@ -445,17 +459,6 @@ p #asuntosprevios,#cargacademica,#pago,#cierre{
 
 #botones button {
     width: 215px;
-}
-
-button{
-    background-color: #253D95;
-    border-radius: 25px;
-    border-style: hidden;
-    padding: 10px;
-    color: white;
-    font-size: 16px;
-    padding: 4px 40px;
-    margin-bottom: 32px;
 }
 
 .lined-row{
@@ -472,7 +475,7 @@ button{
     background-color:white ;
     border-radius:50%;
     font-size:40px;
-    padding:10px 25px;
+    padding:10px 21px;
     color: #6727A3;
     border: 12px solid #EDF2F7;
     width: 90px;
@@ -480,11 +483,9 @@ button{
     display: inline-flex;
     line-height: 1em;
   }
-
   div.container.circle-line-container > div.row.lined-cir > div:nth-child(1) > div{
     padding-left:24px;
   }
-
   .subhead-steps{
     margin-top:140px;
     text-align:center;
@@ -499,8 +500,8 @@ button{
   }
 
 #inicioinscripcion {
-width: 900px;
-color: #c4c4c4;
+    width: 900px;
+    color: #c4c4c4;
 }
 
  aside .fotocoordinador img{
@@ -513,8 +514,10 @@ aside div{
 }
 
 aside .botonenlace {
-    max-width: 47px;
     margin-bottom: 20px;
+}
+body > aside > div.botonenlace > a > img{
+    width: 50px;
 }
 
 .fotocoordinador p{
@@ -526,83 +529,81 @@ aside .botonenlace {
     width: 215px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#asuntosprevios > button:nth-child(4),#asuntosprevios > button:nth-child(3), #asuntosprevios > button:nth-child(5), #asuntosprevios > button:nth-child(6),#asuntosprevios > button:nth-child(7),#asuntosprevios > button:nth-child(8){
+    padding: 4px 12px;
+    width: 95px;
+}
+
+#asuntosprevios > p{
+    margin-left: 9px;
+    font-size: 16px;
+}
+body > aside{
+    position: absolute;
+    right: 35px;
+    top: 112px;
+    width: 100px;
+    text-align: center;
+}
+
+#pago > button:nth-child(2){
+    padding: 4px 82px;
+}
+#asuntosprevios > button:nth-child(2){
+padding: 4px 26px;
+}
+
+/*Cuenta de alumno*/
+.saldodelalumno {
+    background-color: white;
+    color: #253D95;
+    border-radius: 10%;
+    box-shadow: 0 0 5px 1px #80808091;
+    width: 189px;
+    height: 126px;
+    text-align:center;
+    padding: 10px;
+    margin-block: 25px;
+}
+
+body > section.row.justify-content-center > div:nth-child(1) > div.cuentafotoalumno > img{
+    border-radius: 10%;
+    width: 250px;
+    margin: 5px;
+    justify-content: center;
+    margin-left: 25px;
+}
+body > section.row.justify-content-center > div > div.col-12.col-sm-6.col-lg-4 > div.col-12.col-sm-6.col-lg-4 > div > div:nth-child(2) > input[type=submit]{
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 4px 40px;
+    margin-bottom: 32px;
+    margin-left: 35px;
+    background-color: #253D95;
+}
+.formulariopagoalumno input{
+    background-color:#EDF2F7;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 500px;
+    color: #212121;
+    margin: 20px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.secciondeprocesos h3{
+    color:#253D95;
+    background-color: #E5E5E5;
+    padding: 30px 106px;
+    margin-block: 30px;
+    
+}
+body > section:nth-child(3) > div > img{
+    padding: 30px;
+}
 
 
 
