@@ -1,39 +1,39 @@
 /* Jhoan 1-200 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#UMVirtual{
+    background:url(../images/mockuphandphone.jpg) no-repeat left top;
+    background-size: cover;
+    color:white;
+    padding-top: 60px;
+}
+#UMVirtual > div > div > section > div > div.col-6.align-self-center > a:nth-child(2) > img{
+   margin-bottom: 20px;
+}
+#UMVirtual > div > div > section > div{
+    margin-bottom: 50px;
+}
+#UMVirtual > div > div > section > section{
+    background: white;
+    margin: 1em 1em 80px;
+    padding: 30px;
+    border-radius: 25px;
+    color: #212121;
+}
+#UMVirtual > div > div > section > section button{
+    margin-bottom: 0;
+    padding: 4px 20px;
+}
+@media (min-width: 768px){
+    #UMVirtual{
+        background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
+        background-size: cover;
+    }   
+}
+@media (min-width: 992px){
+    #UMVirtual{
+        background:url(../images/mockuphandphone.jpg) no-repeat left top;
+        background-size: cover;
+    }   
+}
 
 
 
@@ -199,52 +199,42 @@
 
 /* /Jhoan */
 /* Analí 201-400 */
-
 header{
     background-color: #253D94;
 }
-
 img {
     max-width: 100%;
     max-height: 100%;
    }
-
 #LogoUniversidad {
     height: 60px;
     width: 60px;
 }
-
 #CierrePerfil{
     background-color: transparent;
     border-bottom: none;
     box-decoration-break: none;
     outline: none;
 }
-
 #CierrePerfil img:last-child{
 border-radius: 50%;
 }
-
 #Titulos li{
     font-weight: 600;
     color: white;
 }
-
 @media (min-width: 500px){
     nav{
         padding: 20px;
     }
-
     #CierrePerfil{
         padding-right: 0px;
         margin-left: 16px;
     }
-
     #Busqueda{
         padding-left:10px;
     }
 }
-
 @media (min-width: 1050px){
     nav{
         padding: 40px;
@@ -253,14 +243,11 @@ border-radius: 50%;
         padding-right: 20px;
     }
 }
-
-
 @media (min-width: 1200px){
     nav{
         padding: 110px;
     }
 }
-
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
@@ -271,7 +258,6 @@ border-radius: 50%;
     transition: box-shadow .15s ease-in-out;
     outline: none;
 }
-
 .navbar-nav {
     display: flex;
     flex-direction: column;
@@ -279,29 +265,23 @@ border-radius: 50%;
     margin-bottom: 0;
     list-style: none;
 }
-
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
 }
-
 /*Docente*/
-
 .cambiantes, #zona-inicial {
     display: flex;
     color: #c0c0c0;
 }
-
 #zona-inicial {
     background-color: #253D94;
 }
-
 select {
     margin-left: 10px;
     color: #253D94;
     padding: 4px 40px;
     border-radius: 5px;
 }
-
 #Materias{
     margin: 16px;
 }
@@ -320,7 +300,6 @@ select {
     position: relative;
     margin-bottom: 2rem;
 }
-
 .EntradaMaterias > div::before {
     content: "";
     background: #253d95;
@@ -331,15 +310,12 @@ select {
     top: 0;
     border-radius: 20px 20px 0px 0;
 }
-
 #morado {
     background-color: #6727A3;
 }
-
 #BotonesInicioPD {
     margin-top: 16px;
 }
-
 .EntradaMaterias h2 {
     font-size: 16px;
     font-style: bold;
@@ -397,8 +373,32 @@ select {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* /Analí */
-/* Emely 401-600 */
+/* Emely 401-800 */
 /*Elementos generales*/
 button{
     background-color: #253D95;
@@ -410,7 +410,6 @@ button{
     padding: 4px 40px;
     margin-bottom: 32px;
 }
-
 /*Inicio de inscripción*/
 #inicioinscripcion {
     background-color:white;
@@ -424,7 +423,6 @@ button{
     margin-block: 55px 85px;
     margin-inline: auto;
 }
-
 #Periodo,#Planacademico,#Modalidad{
     background-color: #EDF2F7;
     border-radius: 10px;
@@ -436,7 +434,6 @@ button{
     padding-left: 25px;
     padding-right: 25px;
 }
-
 /*Proceso de Inscripción*/
 #asuntosprevios,#cargacademica,#pago,#cierre{
     background: #EDF2F7;
@@ -449,18 +446,15 @@ button{
     padding-inline-start: 90px;
     padding: 50px;   
 }
-
 #botones > div{
     text-align: center;
 }
 #botones img {
     max-width: 165px;
 }
-
 #botones button {
     width: 215px;
 }
-
 .lined-row{
     margin-top:-50px;
     border-bottom:12px solid #EDF2F7;
@@ -493,17 +487,14 @@ button{
   .subhead-steps p{
     font-size:12px;
   }
-  
   .circle-line-container{
     padding-top:30px;
     padding-bottom:60px;
   }
-
 #inicioinscripcion {
     width: 900px;
     color: #c4c4c4;
 }
-
  aside .fotocoordinador img{
     border-radius: 50%;
     box-shadow: 0 0 5px 1px #80808091;
@@ -512,28 +503,23 @@ button{
 aside div{
     color: #253D95;
 }
-
 aside .botonenlace {
     margin-bottom: 20px;
 }
 body > aside > div.botonenlace > a > img{
     width: 50px;
 }
-
 .fotocoordinador p{
     margin-top: 6px;
     margin-bottom: 0rem;
 }
-
 #cargacademica > button,#pago > button:nth-child(3),#pago > button:nth-child(4),#cierre > button{
     width: 215px;
 }
-
 #asuntosprevios > button:nth-child(4),#asuntosprevios > button:nth-child(3), #asuntosprevios > button:nth-child(5), #asuntosprevios > button:nth-child(6),#asuntosprevios > button:nth-child(7),#asuntosprevios > button:nth-child(8){
     padding: 4px 12px;
     width: 95px;
 }
-
 #asuntosprevios > p{
     margin-left: 9px;
     font-size: 16px;
@@ -545,14 +531,12 @@ body > aside{
     width: 100px;
     text-align: center;
 }
-
 #pago > button:nth-child(2){
     padding: 4px 82px;
 }
 #asuntosprevios > button:nth-child(2){
 padding: 4px 26px;
 }
-
 /*Cuenta de alumno*/
 .saldodelalumno {
     background-color: white;
@@ -565,7 +549,6 @@ padding: 4px 26px;
     padding: 10px;
     margin-block: 25px;
 }
-
 body > section.row.justify-content-center > div:nth-child(1) > div.cuentafotoalumno > img{
     border-radius: 10%;
     width: 250px;
@@ -621,8 +604,201 @@ body > section:nth-child(3) > div > img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* /Emely */
-/* Kevin 601-800 */
+/* Kevin 801- */
 #datosDelAlumno{
    font-size: 14px;
 }
