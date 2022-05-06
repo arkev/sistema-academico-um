@@ -199,52 +199,42 @@
 
 /* /Jhoan */
 /* Analí 201-400 */
-
 header{
     background-color: #253D94;
 }
-
 img {
     max-width: 100%;
     max-height: 100%;
    }
-
 #LogoUniversidad {
     height: 60px;
     width: 60px;
 }
-
 #CierrePerfil{
     background-color: transparent;
     border-bottom: none;
     box-decoration-break: none;
     outline: none;
 }
-
 #CierrePerfil img:last-child{
 border-radius: 50%;
 }
-
 #Titulos li{
     font-weight: 600;
     color: white;
 }
-
 @media (min-width: 500px){
     nav{
         padding: 20px;
     }
-
     #CierrePerfil{
         padding-right: 0px;
         margin-left: 16px;
     }
-
     #Busqueda{
         padding-left:10px;
     }
 }
-
 @media (min-width: 1050px){
     nav{
         padding: 40px;
@@ -253,14 +243,11 @@ border-radius: 50%;
         padding-right: 20px;
     }
 }
-
-
 @media (min-width: 1200px){
     nav{
         padding: 110px;
     }
 }
-
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
@@ -271,7 +258,6 @@ border-radius: 50%;
     transition: box-shadow .15s ease-in-out;
     outline: none;
 }
-
 .navbar-nav {
     display: flex;
     flex-direction: column;
@@ -279,48 +265,39 @@ border-radius: 50%;
     margin-bottom: 0;
     list-style: none;
 }
-
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
 }
-
 /*Docente*/
-
 #TitutloSeccion h1{
     margin: 36px 36px 36px 36px;
     color: #253D94;
     font-weight: bold;
 }
-
 .cambiantes {
     color: #c0c0c0;
     display: flex;
 }
-
 .cambiantes > p {
     margin-right: 16px;
     text-align: center;
     display: flex;
     margin-bottom: 0%;
 }
-
 #zona-cambiantes {
     background-color: #253D94;
     display: flex;
     border-radius: 5px;
 }
-
 #zona-inicial {
     display: flex;
 }
-
 select {
     margin-left: 10px;
     color: #253D94;
     padding: 4px 40px;
     border-radius: 5px;
 }
-
 #Materias{
     margin: 16px;
 }
@@ -339,7 +316,6 @@ select {
     position: relative;
     margin-bottom: 2rem;
 }
-
 .EntradaMaterias > div::before {
     content: "";
     background: #253d95;
@@ -350,50 +326,74 @@ select {
     top: 0;
     border-radius: 20px 20px 0px 0;
 }
-
 #morado {
     background-color: #6727A3;
 }
-
 .BotonesExtra {
     margin-top: 26px;
 }
-
 @media (min-width: 476px){
     #BotonesInicioPD{
         margin: 36px 10% 0% 10%;
     }
 }
-
 @media (min-width: 768px){
     #BotonesInicioPD {
         margin-left: 30px;
     }
 }
-
 .EntradaMaterias h2 {
     font-size: 16px;
 }
-
 .EntradaMaterias h3 {
     color: #253D94;
 }
-
-
-
 .EntradaMaterias h2:first-of-type {
     position: relative;
     color: #c0c0c0;
     z-index: 2;
     top: -25px;
 }
-
 .vblanco {
     background-color: white;
     border-color: #7A828A;
     border-style: solid;
     color: #7A828A;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
