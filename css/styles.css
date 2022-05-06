@@ -5,12 +5,15 @@
     color:white;
     padding-top: 60px;
 }
+
 #UMVirtual > div > div > section > div > div.col-6.align-self-center > a:nth-child(2) > img{
    margin-bottom: 20px;
 }
+
 #UMVirtual > div > div > section > div{
     margin-bottom: 50px;
 }
+
 #UMVirtual > div > div > section > section{
     background: white;
     margin: 1em 1em 80px;
@@ -18,10 +21,12 @@
     border-radius: 25px;
     color: #212121;
 }
+
 #UMVirtual > div > div > section > section button{
     margin-bottom: 0;
     padding: 4px 20px;
 }
+
 @media (min-width: 768px){
     #UMVirtual{
         background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
@@ -192,49 +197,54 @@
 
 
 
-
-
-
-
-
 /* /Jhoan */
 /* Analí 201-400 */
+
 header{
     background-color: #253D94;
 }
+
 img {
     max-width: 100%;
     max-height: 100%;
    }
+
 #LogoUniversidad {
     height: 60px;
     width: 60px;
 }
+
 #CierrePerfil{
     background-color: transparent;
     border-bottom: none;
     box-decoration-break: none;
     outline: none;
 }
+
 #CierrePerfil img:last-child{
 border-radius: 50%;
 }
+
 #Titulos li{
     font-weight: 600;
     color: white;
 }
+
 @media (min-width: 500px){
     nav{
         padding: 20px;
     }
+
     #CierrePerfil{
         padding-right: 0px;
         margin-left: 16px;
     }
+
     #Busqueda{
         padding-left:10px;
     }
 }
+
 @media (min-width: 1050px){
     nav{
         padding: 40px;
@@ -243,11 +253,14 @@ border-radius: 50%;
         padding-right: 20px;
     }
 }
+
+
 @media (min-width: 1200px){
     nav{
         padding: 110px;
     }
 }
+
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
@@ -258,6 +271,7 @@ border-radius: 50%;
     transition: box-shadow .15s ease-in-out;
     outline: none;
 }
+
 .navbar-nav {
     display: flex;
     flex-direction: column;
@@ -265,23 +279,48 @@ border-radius: 50%;
     margin-bottom: 0;
     list-style: none;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
 }
+
 /*Docente*/
-.cambiantes, #zona-inicial {
-    display: flex;
+
+#TitutloSeccion h1{
+    margin: 36px 36px 36px 36px;
+    color: #253D94;
+    font-weight: bold;
+}
+
+.cambiantes {
     color: #c0c0c0;
+    display: flex;
 }
-#zona-inicial {
+
+.cambiantes > p {
+    margin-right: 16px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 0%;
+}
+
+#zona-cambiantes {
     background-color: #253D94;
+    display: flex;
+    border-radius: 5px;
 }
+
+#zona-inicial {
+    display: flex;
+}
+
 select {
     margin-left: 10px;
     color: #253D94;
     padding: 4px 40px;
     border-radius: 5px;
 }
+
 #Materias{
     margin: 16px;
 }
@@ -300,106 +339,115 @@ select {
     position: relative;
     margin-bottom: 2rem;
 }
+
 .EntradaMaterias > div::before {
     content: "";
     background: #253d95;
     width: 100%;
-    height: 35px;
+    height: 50px;
     position: absolute;
     right: 0;
     top: 0;
     border-radius: 20px 20px 0px 0;
 }
+
 #morado {
     background-color: #6727A3;
 }
-#BotonesInicioPD {
-    margin-top: 16px;
+
+.BotonesExtra {
+    margin-top: 26px;
 }
+
+@media (min-width: 476px){
+    #BotonesInicioPD{
+        margin: 36px 10% 0% 10%;
+    }
+}
+
+@media (min-width: 768px){
+    #BotonesInicioPD {
+        margin-left: 30px;
+    }
+}
+
 .EntradaMaterias h2 {
     font-size: 16px;
-    font-style: bold;
+}
+
+.EntradaMaterias h3 {
+    color: #253D94;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.EntradaMaterias h2:first-of-type {
+    position: relative;
+    color: #c0c0c0;
+    z-index: 2;
+    top: -25px;
+}
+
+.vblanco {
+    background-color: white;
+    border-color: #7A828A;
+    border-style: solid;
+    color: #7A828A;
+}
 
 
 
 /* /Analí */
-/* Emely 401-800 */
-/*Elementos generales*/
+/* Emely 401-600 */
+#inicioinscripcion {
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 70px 130px;  
+    margin: 40px auto;
+    align-items: center;
+    text-align: center;
+}
+
+#Periodo,#Planacademico,#Modalidad{
+    background-color: #EDF2F7;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 504px;
+    height: 43px;
+    margin: 20px;
+    color: #7A828A;
+}
+
+#asuntosprevios,#cargacademica,#pago,#cierre{
+    background: #EDF2F7;
+    margin: 10px;
+    box-shadow: 0 0 3px 1px #80808091; 
+    width: 295px;
+    height: 423px;
+    text-align: left;
+    align-content: center;
+    padding-inline-start: 90px;
+    padding: 50px;
+    
+}
+
+p #asuntosprevios,#cargacademica,#pago,#cierre{
+    margin: 22px;
+}
+
+
+#botones > div{
+    text-align: center;
+}
+#botones img {
+    max-width: 165px;
+}
+
+#botones button {
+    width: 215px;
+}
+
 button{
     background-color: #253D95;
     border-radius: 25px;
@@ -410,51 +458,7 @@ button{
     padding: 4px 40px;
     margin-bottom: 32px;
 }
-/*Inicio de inscripción*/
-#inicioinscripcion {
-    background-color:white;
-    border-radius: 20px;
-    box-shadow: 0 0 10px -3px #80808091;
-    padding: 45px 100px;  
-    margin:  20px;  
-    width: 830px;
-    height: 460px;
-    text-align: center;
-    margin-block: 55px 85px;
-    margin-inline: auto;
-}
-#Periodo,#Planacademico,#Modalidad{
-    background-color: #EDF2F7;
-    border-radius: 10px;
-    border-style: hidden;
-    width: 504px;
-    height: 43px;
-    margin: 20px;
-    color: #7A828A;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-/*Proceso de Inscripción*/
-#asuntosprevios,#cargacademica,#pago,#cierre{
-    background: #EDF2F7;
-    margin: 10px;
-    box-shadow: 0 0 8px -2px #80808091; 
-    width: 295px;
-    height: 423px;
-    text-align: left;
-    align-content: center;
-    padding-inline-start: 90px;
-    padding: 50px;   
-}
-#botones > div{
-    text-align: center;
-}
-#botones img {
-    max-width: 165px;
-}
-#botones button {
-    width: 215px;
-}
+
 .lined-row{
     margin-top:-50px;
     border-bottom:12px solid #EDF2F7;
@@ -469,7 +473,7 @@ button{
     background-color:white ;
     border-radius:50%;
     font-size:40px;
-    padding:10px 21px;
+    padding:10px 20px;
     color: #6727A3;
     border: 12px solid #EDF2F7;
     width: 90px;
@@ -477,9 +481,11 @@ button{
     display: inline-flex;
     line-height: 1em;
   }
+
   div.container.circle-line-container > div.row.lined-cir > div:nth-child(1) > div{
     padding-left:24px;
   }
+
   .subhead-steps{
     margin-top:140px;
     text-align:center;
@@ -487,14 +493,17 @@ button{
   .subhead-steps p{
     font-size:12px;
   }
+  
   .circle-line-container{
     padding-top:30px;
     padding-bottom:60px;
   }
+
 #inicioinscripcion {
-    width: 900px;
-    color: #c4c4c4;
+width: 900px;
+color: #c4c4c4;
 }
+
  aside .fotocoordinador img{
     border-radius: 50%;
     box-shadow: 0 0 5px 1px #80808091;
@@ -503,16 +512,17 @@ button{
 aside div{
     color: #253D95;
 }
+
 aside .botonenlace {
+    max-width: 47px;
     margin-bottom: 20px;
 }
-body > aside > div.botonenlace > a > img{
-    width: 50px;
-}
+
 .fotocoordinador p{
     margin-top: 6px;
     margin-bottom: 0rem;
 }
+
 #cargacademica > button,#pago > button:nth-child(3),#pago > button:nth-child(4),#cierre > button{
     width: 215px;
 }
@@ -798,7 +808,7 @@ body > section:nth-child(3) > div > img{
 
 
 /* /Emely */
-/* Kevin 801- */
+/* Kevin 601-800 */
 #datosDelAlumno{
    font-size: 14px;
 }
@@ -1025,3 +1035,4 @@ footer a{
 
 
 /* /Kevin */
+
