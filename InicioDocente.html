@@ -5,8 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio Docente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="navbar-brand" src="images/um.svg" alt="Logo Universidad de Montemorelos"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Portales
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Docente</a>
+                      <a class="dropdown-item" href="#">Mentor</a>
+                      <a class="dropdown-item" href="#">Portafolio Docente</a>
+                      <a class="dropdown-item" href="#">Portafolio Apoyo</a>
+                      <a class="dropdown-item" href="#">Plan Diamante</a>
+                    </div>
+                  </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">VRA</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">VRE</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Alumno</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Empleado</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Inscripción</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Usuario</a>
+                    </li>
+                </ul>
+                <div class="navbar-text">
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar" aria-label="Input group example" aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="basic-addon1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                </svg>
+                              </span>
+                          </div>
+                      </form>
+                     
+                </div>
+                <div id="CierrePerfil">
+                    <a href=""><img src="images/ImagenPersonal.jpg" alt="Fotografía Personal" type="button"></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+        <section id="datosDelEmpleado" class="row">
+            <section class="col-xs-12 col-sm-7 col-xl-8">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="images/chicaBonita.jpg" alt="Foto del alumno">
+                    </div>
+                   
+                        <div class="col-xs-12 col-md-6" id="InformacionEmpleado">
+                            <p id="NombreEmpleado">Marta Elizabeth Perez Gomez</p>
+                            <p>Empleado-Activo</p>
+                            <div class="zona-iconos">
+                                <div id="I-Matricula">
+                                    <img src="images/perfil-n.svg" alt="">
+                                    <p>9801107</p>
+                                </div>
+                                <div id="I-Telefono">
+                                    <img src="images/telefono.svg" alt="">
+                                    <p>826 2123 2311</p>
+                                </div>
+                                <div id="I-Mail">
+                                    <img src="images/mail.svg" alt="">
+                                    <p>empleado@um.edu.mx</p>
+                                </div>
+                            </div>
+                            <button>Editar info</button>
+                        </div>
+                   
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <section id="Comunicados">
+        <h1>COMUNICADOS OFICIALES</h1>
+            <div class="container">
+                <section class="row">
+                    <section class="col-xs-12">
+                        <div class="row" id="ContenidoComunicados">
+                            <div class="col-xs-12 col-md-6" id="centrar">
+                                <div class="Contenido-Comunicados">
+                                    <div class="ComunicadosFondoIconos col-6" >
+                                        <div class="ComunicadosIconos">
+                                            <img src="images/Calendario-n.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6" id="MensajeComunicado">
+                                        <h2>Calendario Universitario</h2>
+                                        <p>Entérate de los eventos oficiales agendados en la institución.</p>
+                                        <button>Revisar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6" id="centrar">
+                                <div class="Contenido-Comunicados">
+                                    <div class="ComunicadosFondoIconos col-6" >
+                                        <div class="ComunicadosIconos" id="Covid">
+                                            <img src="images/Lista.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6" id="MensajeComunicado">
+                                        <h2>COVID</h2>
+                                        <p>Tu salud es primordial, recuerda llenar el formulario de Covid- 19.</p>
+                                        <button>Formulario</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> 
+                </section>
+            </div>
+    </section>
+
+    <section id="UMVirtual">
+        <div class="container">
+            <div class="row">
+            <section class="col-12 col-md-9 col-lg-6 col-xl-5 offset-md-3 offset-lg-6 offset-xl-7">
+            <h2>Conoce nuestra nueva aplicación</h2>
+            <div class="row">
+                <div class="col-6">
+                    <p>UM Móvil</p>
+                    <img src="images/UMlogomovil.png" alt="Logo UM Móvil" />
+                </div>
+                <div class="col-6 align-self-center">
+                    <p>Disponible en:</p>
+                    <a href="#"><img src="images/Googleplay.png" alt="Google Play"></a>
+                    <a href="#"><img src="images/appstore.png" alt="App Store"></a>
+                </div>
+            </div>
+            <section class="row">
+                <div class="col-4">
+                <img src="images/candadoabierto.svg" alt="Candado abierto">
+                </div>
+                <div class="col-8">
+                    <p>Si ya cuentas con UM Móvil, aquí te ayudaremos</p>
+                    <button>Establecer constraseña</button>
+                </div>
+            </section>
+        </section>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a href="#">Políticas de privacidad</a>
+                    <a href="#">Terminos de uso</a>
+                    <a href="#">Preguntas frecuentes</a>
+                    <a href="#">Ayuda</a>
+                </div>
+                <p class="col-12 col-md-6">Universidad de Montemorelos © <span id="year"></span> Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+  
+   <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

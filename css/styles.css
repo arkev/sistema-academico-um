@@ -617,6 +617,9 @@ padding: 15px;
     position: relative;
     margin: 23px;
 }
+.EntradaMaterias p{
+    text-align: center;
+}
 .EntradaMaterias > div::before {
     content: "";
     background: #253d95;
@@ -652,7 +655,6 @@ padding: 15px;
         max-width: 460px;
     }
 }
-
 @media (min-width: 768px){
     #BotonesInicioPD {
         margin-left: 73px;
@@ -692,42 +694,34 @@ padding: 15px;
 #zona-inicial > section > button{
     padding: 4px 15px;
 }
-
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1435px;
     }
 }
-
 #Alumnos .vblanco{
     padding: 4px 15px;
     margin: 10px;
 }
-
 .BotonesSeleccionAlumno{
     margin-top: 10px;
 }
-
 .Promedio-Carga{
     display: flex;
 }
-
 .PerfilAlumno h2{
     color: #253D94;
     font-size: 16px;
 }
-
 .Promedio-Carga input{
     width: 100px;
 }
-
 .fotoperfil img {
     max-width: 70%;
     max-height: 70%;
     border-radius: 30%;
     margin-bottom: 30px;
 }
-
 .PerfilAlumno {
     width: 321px;
     height: 530px;
@@ -742,153 +736,159 @@ padding: 15px;
     margin: 23px;
 
 }
-
 .barradeavance{
     margin-bottom: 15px;
 }
-
 .Promedio-Carga{
     margin-bottom: 30px;
 }
-
 .BotonesSeleccionAlumno img{
     margin-bottom: 3px;
 }
-
 #arriba{
     margin-bottom: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Inicio*/
+
+#datosDelEmpleado{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+ }
+ #datosDelEmpleado > section{
+     background-color:white;
+     border-radius: 20px;
+     box-shadow: 0 0 7px 2px #80808091;
+     padding: 40px;
+     position: relative;
+     margin-bottom: 2rem;
+ }
+ #datosDelEmpleado img {
+     width: 100%;
+     border-radius: 20px;
+     max-width: 270px;
+ }
+ #datosDelEmpleado #zona-iconos img {
+    max-width: 25px;
+    border-radius: 0%;
+}
+ #datosDelEmpleado > section > div > div:nth-child(1){
+     text-align: center;
+ }
+ #nombreEmpleado{
+     font-size:23px;
+     font-weight: 600;
+     margin-bottom: 0;
+ }
+ #datosDelEmpleado > section > div > div:nth-child(2){
+     text-align: center;
+     align-self: center;
+ }
+ #datosDelEmpleado > section > div > div:nth-child(2) div{
+     margin-bottom: 15px;
+ }
+ .zona-iconos p{
+    margin-bottom: 0%;
+    margin-left:5px;
+ }
+ #I-Matricula,  #I-Telefono,  #I-Mail  {
+     display: flex;
+ }
+ #I-Telefono img{
+     height: 17px;
+     width: 17px;
+ }
+ #I-Mail img{
+     width: 25px;
+ }
+ #NombreEmpleado{
+     font-size: 25px;
+     font-weight: bold;
+ }
+ @media (min-width: 476px){
+#InformacionEmpleado{
+    margin-top: 20px;
+}
+}
+@media (min-width: 768px){
+    #InformacionEmpleado{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    }
+#InformacionEmpleado p{
+     text-align: start;
+ }
+    .zona-iconos {
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+ #Comunicados{
+     background-color: #253D94;
+     padding: 50px;
+     padding-bottom: 70px;
+ }
+ #Comunicados h1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+ }
+ .ccomunicado{
+     background-color: #c0c0c0;
+ }
+ .ContenidoComunicados{
+     display: flex;
+ }
+ .Contenido-Comunicados h2{
+    color: #253D94;
+    font-size: 16px;
+}
+.ComunicadosIconos{
+    background-color: #BF74A4;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+.ComunicadosFondoIconos #Covid{
+    background-color: #64638F;
+} 
+.ComunicadosFondoIconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#MensajeComunicado{
+padding-top: 25px;
+padding-right: 25px;
+}
+#centrar{
+    display: flex;
+    justify-content: center;
+}
+.Contenido-Comunicados{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #31313191;
+    margin-top: 50px;
+}
+@media (min-width: 1080px){
+    .Contenido-Comunicados{
+        display: flex;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 0 7px 2px #31313191;
+        max-width: 75%;
+        margin-top: 50px;
+    }
+}
 
 
 
