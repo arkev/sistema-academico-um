@@ -1,0 +1,1832 @@
+/* Jhoan 1-500 */
+#UMVirtual{
+    background:url(../images/mockuphandphone.jpg) no-repeat left top;
+    background-size: cover;
+    color:white;
+    padding-top: 60px;
+}
+
+#UMVirtual > div > div > section > div > div.col-6.align-self-center > a:nth-child(2) > img{
+   margin-bottom: 20px;
+}
+
+#UMVirtual > div > div > section > div{
+    margin-bottom: 50px;
+}
+
+#UMVirtual > div > div > section > section{
+    background: white;
+    margin: 1em 1em 80px;
+    padding: 30px;
+    border-radius: 25px;
+    color: #212121;
+}
+
+#UMVirtual > div > div > section > section button{
+    margin-bottom: 0;
+    padding: 4px 20px;
+}
+
+@media (min-width: 768px){
+    #UMVirtual{
+        background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
+        background-size: cover;
+    }   
+}
+@media (min-width: 992px){
+    #UMVirtual{
+        background:url(../images/mockuphandphone.jpg) no-repeat left top;
+        background-size: cover;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /Jhoan */
+/* Analí 501-1000 */
+header{
+    background-color: #253D94;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+#LogoUniversidad {
+    height: 60px;
+    width: 60px;
+}
+#CierrePerfil{
+    background-color: transparent;
+    border-bottom: none;
+    -webkit-box-decoration-break: none;
+    box-decoration-break: none;
+    outline: none;
+}
+#CierrePerfil img:last-child{
+border-radius: 50%;
+}
+#Titulos li{
+    font-weight: 600;
+    color: white;
+}
+@media (min-width: 500px){
+    nav{
+        padding: 20px;
+    }
+    #CierrePerfil{
+        padding-right: 0px;
+        margin-left: 16px;
+    }
+    #Busqueda{
+        padding-left:10px;
+    }
+}
+@media (min-width: 1050px){
+    nav{
+        padding: 40px;
+    }
+    #Busqueda{
+        padding-right: 20px;
+    }
+}
+@media (min-width: 1200px){
+    nav{
+        padding: 110px;
+    }
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    color: rgb(255 255 255);
+    line-height: 1;
+    background-color: transparent;
+    border: 1px transparent;
+    transition: box-shadow .15s ease-in-out;
+    outline: none;
+}
+.navbar-nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+/*Docente*/
+#TitutloSeccion h1{
+    margin: 36px 36px 36px 36px;
+    color: #253D94;
+    font-weight: bold;
+}
+.cambiantes {
+    color: #c0c0c0;
+    display: -webkit-flex;
+    display: flex;
+}
+.cambiantes > p {
+    margin-right: 16px;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 0%;
+}
+#zona-cambiantes {
+    background-color: #253D94;
+    display: -webkit-flex;
+    display: flex;
+    border-radius: 5px;
+}
+#zona-inicial {
+    display: -webkit-flex;
+    display: flex;
+}
+select {
+    margin-left: 10px;
+    color: #253D94;
+    padding: 4px 40px;
+    border-radius: 5px;
+}
+#Materias{
+    margin: 16px;
+}
+.EntradaMaterias{
+    background-color: #444444;
+    border-radius: 5%;
+    width: 350px;
+    text-align: center;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; 
+    -webkit-align-content: flex-start; 
+    align-content: flex-start;   
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.EntradaMaterias > div::before {
+    content: "";
+    background: #253d95;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 20px 20px 0px 0;
+}
+#morado {
+    background-color: #6727A3;
+}
+.BotonesExtra {
+    margin-top: 26px;
+}
+@media (min-width: 476px){
+    #BotonesInicioPD{
+        margin: 36px 10% 0% 10%;
+    }
+}
+@media (min-width: 768px){
+    #BotonesInicioPD {
+        margin-left: 30px;
+    }
+}
+.EntradaMaterias h2 {
+    font-size: 16px;
+}
+.EntradaMaterias h3 {
+    color: #253D94;
+}
+.EntradaMaterias h2:first-of-type {
+    position: relative;
+    color: #c0c0c0;
+    z-index: 2;
+    top: -25px;
+}
+.vblanco {
+    background-color: white;
+    border-color: #7A828A;
+    border-style: solid;
+    color: #7A828A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /Analí */
+/* Emely 1000-1501 */
+#inicioinscripcion {
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 70px 130px;  
+    margin: 40px auto;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Periodo,#Planacademico,#Modalidad{
+    background-color: #EDF2F7;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 504px;
+    height: 43px;
+    margin: 20px;
+    color: #7A828A;
+}
+
+#asuntosprevios,#cargacademica,#pago,#cierre{
+    background: #EDF2F7;
+    margin: 10px;
+    box-shadow: 0 0 3px 1px #80808091; 
+    width: 295px;
+    height: 423px;
+    text-align: left;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-padding-start: 90px;
+    padding-inline-start: 90px;
+    padding: 50px;
+    
+}
+
+p #asuntosprevios,#cargacademica,#pago,#cierre{
+    margin: 22px;
+}
+
+
+#botones > div{
+    text-align: center;
+}
+#botones img {
+    max-width: 165px;
+}
+
+#botones button {
+    width: 215px;
+}
+
+button{
+    background-color: #253D95;
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 4px 40px;
+    margin-bottom: 32px;
+}
+
+.lined-row{
+    margin-top:-50px;
+    border-bottom:12px solid #EDF2F7;
+    margin-left:8vw;
+    margin-right:8vw;
+  }
+  .lined-cir{
+    margin-top:20px ;
+    text-align:center;
+  }
+  .circle-yellow{
+    background-color:white ;
+    border-radius:50%;
+    font-size:40px;
+    padding:10px 20px;
+    color: #6727A3;
+    border: 12px solid #EDF2F7;
+    width: 90px;
+    height: 90px;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    line-height: 1em;
+  }
+
+  div.container.circle-line-container > div.row.lined-cir > div:nth-child(1) > div{
+    padding-left:24px;
+  }
+
+  .subhead-steps{
+    margin-top:140px;
+    text-align:center;
+  }
+  .subhead-steps p{
+    font-size:12px;
+  }
+  
+  .circle-line-container{
+    padding-top:30px;
+    padding-bottom:60px;
+  }
+
+#inicioinscripcion {
+width: 900px;
+color: #c4c4c4;
+}
+
+ aside .fotocoordinador img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px #80808091;
+    max-width: 65px;
+}
+aside div{
+    color: #253D95;
+}
+
+aside .botonenlace {
+    max-width: 47px;
+    margin-bottom: 20px;
+}
+
+.fotocoordinador p{
+    margin-top: 6px;
+    margin-bottom: 0rem;
+}
+
+#cargacademica > button,#pago > button:nth-child(3),#pago > button:nth-child(4),#cierre > button{
+    width: 215px;
+}
+#asuntosprevios > button:nth-child(4),#asuntosprevios > button:nth-child(3), #asuntosprevios > button:nth-child(5), #asuntosprevios > button:nth-child(6),#asuntosprevios > button:nth-child(7),#asuntosprevios > button:nth-child(8){
+    padding: 4px 12px;
+    width: 95px;
+}
+#asuntosprevios > p,#cargacademica > p,#pago > p,#cierre > p{
+    margin-left: 9px;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+#pago > button:nth-child(2){
+    padding: 4px 82px;
+}
+#asuntosprevios > button:nth-child(2){
+padding: 4px 26px;
+}
+#asuntospreviosadelante,#cargacademicaadelante,#pagoadelante,#cierreadelante{
+    background: #253d95;
+    color: white;
+    margin: 10px;
+    box-shadow: 0 0 8px -2px #80808091; 
+    width: 295px;
+    height: 423px;
+    text-align: left;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-padding-start: 90px;
+    padding-inline-start: 90px;
+    padding: 50px;  
+    opacity: 50%;
+    text-align: center;
+}
+body > aside{
+    position: absolute;
+    right: 45px;
+    top: 115px;
+    width: 100px;
+    text-align: center;
+}
+/*Flip Proceso de Inscripción*/
+* {
+  padding: 0;
+  margin: 0;
+}
+#card {
+  max-width: 100%;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  margin: 20px;
+}
+#card, #flip-card {
+  position: relative;
+  width: 285px;
+  height: 425px;
+}
+#flip-card {
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#flip-card:Hover {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+#flip-card-front, #flip-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#flip-card-front, #flip-card-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#flip-card-back {
+  box-shadow: 0 0 5px rgb(230,230,230);
+  background-color: #EDF2F7;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+#flip-card-front {
+  box-shadow: 0 0 5px rgb(22,22,22);
+ background: #253d95;
+  opacity: 50%;
+  color: white;
+}
+
+/*Cuenta de alumno*/
+.saldodelalumno {
+    background-color: white;
+    color: #253D95;
+    border-radius: 10%;
+    box-shadow: 0 0 5px 1px #80808091;
+    width: 189px;
+    height: 126px;
+    text-align:center;
+    padding: 10px;
+    margin-block: 25px;
+}
+body > section.row.justify-content-center > div:nth-child(1) > div.cuentafotoalumno > img{
+    border-radius: 10%;
+    width: 250px;
+    margin: 5px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+body > section.row.justify-content-center > div > div.col-12.col-sm-6.col-lg-4 > div.col-12.col-sm-6.col-lg-4 > div > div:nth-child(2) > input[type=submit]{
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 4px 40px;
+    margin-bottom: 32px;
+    margin-left: 35px;
+    background-color: #253D95;
+}
+.formulariopagoalumno input{
+    background-color:#EDF2F7;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 500px;
+    color: #212121;
+    margin: 20px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.secciondeprocesos h3{
+    color:#253D95;
+    background-color: #E5E5E5;
+    padding: 30px 106px;
+    margin-block: 30px;
+    
+}
+body > section:nth-child(3) > div > img{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /Emely */
+/* Kevin 1501- */
+#datosDelAlumno{
+   font-size: 14px;
+}
+#datosDelAlumno > section{
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+#datosDelAlumno img {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 270px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&display=swap');
+html{
+    font-family: 'Inter', sans-serif;
+}
+img{width: auto;}
+body > div.container{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 3rem auto;
+}
+#datosDelAlumno > section > div > div:nth-child(1){
+    text-align: center;
+}
+#nombreAlumno{
+    font-size:23px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#datosDelAlumno > section > div > div:nth-child(1) > p{
+    color: #444444;
+    margin-top: 4px;
+}
+#datosDelAlumno > section > div > div:nth-child(1) > h2:nth-child(4){
+    font-size:30px;
+    font-weight: 600;
+    color: #c4c4c4;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#datosDelAlumno > section > div > div:nth-child(2) span{
+    color:#253d95;
+}
+#datosDelAlumno > section > div > div:nth-child(2) p{
+    margin-bottom: 0;
+}
+#datosDelAlumno > section > div > div:nth-child(2){
+    text-align: center;
+    -webkit-align-self: center;
+    align-self: center;
+}
+#datosDelAlumno > section > div > div:nth-child(2) div{
+    margin-bottom: 25px;
+}
+#datosDelAlumno > section::before {
+    content: "";
+    background: #253d95;
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 20px 20px 0;
+}
+#datosDelAlumno > aside{
+    font-size: 13px;
+}
+#datosDelAlumno > aside > div{
+    background: #253d95;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+#datosDelAlumno > aside > div > h2{
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+#datosDelAlumno > aside > div > p{
+    margin-bottom: 2rem;
+}
+#datosDelAlumno > aside > div > button{
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 30px;
+    color: #253D94;
+}
+.navbar-brand{
+    width: 55px;
+}
+nav.bg-dark{
+    background-color: #253D94!important;
+}
+footer{
+    background: #253D95;
+    color: white;
+    padding:1.5em 0 1em;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    margin-right: 1em;
+}
+h1{
+    color: #253D94;
+    text-transform: uppercase;
+}
+#captura-candados > div:nth-child(3) > div > div:nth-child(1) > h2 > span{
+    font-size: 24px;
+}
+#captura-candados > div:nth-child(3) > div > div:nth-child(2) > select{
+    background-color: #253D94;
+    color: white;
+    border-radius: 25px;
+    background-image: url(../images/arrow-down.svg);
+}
+#captura-candados .card{
+    margin-bottom: 1em;
+}
+.card {
+    border-radius: 0.8rem;
+    box-shadow: 0 0 9px #00000020;
+}
+.card-header {
+    padding: 0.8rem 1rem;
+    color: #253D94;
+}
+.card-header h5 {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.card-header .form-check-input {
+    float: right;
+}
+
+#historial-candados {
+    font-size: .7rem;
+}
+
+#historial-candados .form-check-input:checked, .card-header .form-check-input:checked {
+    background-color: #716c6d;
+    border-color: #716c6d;
+}
+#historial-candados .form-switch .form-check-input, .card-header .form-switch .form-check-input {
+    width: 2.5em;
+    height: 1.5em;
+    border: 2px solid rgba(0,0,0,.25);
+    background-image: url(../images/unlock-fill.svg);
+}
+#historial-candados .form-switch .form-check-input:checked, .card-header .form-switch .form-check-input:checked {
+    background-image: url(../images/lock-fill.svg);
+}
+#historial-candados .form-switch .form-check-input:focus, .card-header .form-switch .form-check-input:focus  {
+    box-shadow: 0 0 0 0.25rem #c8c4c4;
+}
+.card-text{
+    color: #4d4d4d;
+}
+.card-body a {
+    color: #757373;
+    text-decoration: underline;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+}
+#historial-candados{
+    background-color:#f4f0f1 ;
+    padding: 45px 0;
+}
+#historial-candados > div > h2{
+    color: #5b5b5b;
+}
+
+@media (min-width: 576px){
+    #datosDelAlumno > aside > div{
+        margin-left: 1rem;
+    }
+    #historial-candados {
+        font-size: .9rem;
+    }
+}
+@media (min-width: 768px){
+    #datosDelAlumno > section > div > div:nth-child(1){
+        border-right: 3px solid #c0c0c0;
+        padding: 0 30px 0 0;
+    }
+    #historial-candados {
+        font-size: 1rem;
+    }
+    #datosDelAlumno > aside > div{
+        margin-left: 2rem;
+        background: #253d95;
+        padding: 45px;
+        color: white;
+        text-align: center;
+    }
+    footer a{
+        text-align: left;
+    }
+    footer p{
+        text-align: right;
+    }
+}
+@media (min-width: 992px){
+    #datosDelAlumno, #datosDelAlumno > aside {
+        font-size: 16px;
+    }
+    #datosDelAlumno > section > div > div:nth-child(1) > h2:nth-child(4){
+        font-size:36px;
+    }
+    #datosDelAlumno > section::before {
+        width: 50px;
+    }
+    #datosDelAlumno > section > div > div:nth-child(2) {
+        padding-right: 35px;
+    }
+    #datosDelAlumno > aside > div{
+        margin-left: 4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
