@@ -999,15 +999,18 @@ select {
 
 /* /Analí */
 /* Emely 1000-1501 */
-#inicioinscripcion {
-    background-color:white;
+/*Inicio Inscripción*/
+#inicioinscripcion{
+    background-color: white;
     border-radius: 20px;
-    box-shadow: 0 0 7px 2px #80808091;
-    padding: 70px 130px;  
+    box-shadow: 0 0 4px -1px #80808091;
     margin: 40px auto;
     align-items: center;
     text-align: center;
-}
+    color: #c4c4c4;
+    justify-content: center;
+    margin: 50px 10px;
+    }
 
 #Periodo,#Planacademico,#Modalidad{
     background-color: #EDF2F7;
@@ -1018,7 +1021,25 @@ select {
     margin: 20px;
     color: #7A828A;
 }
+#inicioinscripcion > section::before {
+    content: "";
+    background: #253d95;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 20px 20px 0;
+}
+#inicioinscripcion > section{
+    position: relative;
+    padding: 50px;
+}
+#inicioinscripcion > section > form{
+    justify-content: center;
+}
 
+/*Proceso de inscripcion*/
 #asuntosprevios,#cargacademica,#pago,#cierre{
     background: #EDF2F7;
     margin: 10px;
@@ -1028,26 +1049,20 @@ select {
     text-align: left;
     align-content: center;
     padding-inline-start: 90px;
-    padding: 50px;
-    
+    padding: 50px;   
 }
-
 p #asuntosprevios,#cargacademica,#pago,#cierre{
     margin: 22px;
 }
-
-
 #botones > div{
     text-align: center;
 }
 #botones img {
     max-width: 165px;
 }
-
 #botones button {
     width: 215px;
 }
-
 button{
     background-color: #253D95;
     border-radius: 25px;
@@ -1058,17 +1073,16 @@ button{
     padding: 4px 40px;
     margin-bottom: 32px;
 }
-
 .lined-row{
     margin-top:-50px;
     border-bottom:12px solid #EDF2F7;
     margin-left:8vw;
     margin-right:8vw;
-  }
+}
   .lined-cir{
     margin-top:20px ;
     text-align:center;
-  }
+}
   .circle-yellow{
     background-color:white ;
     border-radius:50%;
@@ -1080,30 +1094,21 @@ button{
     height: 90px;
     display: inline-flex;
     line-height: 1em;
-  }
-
-  div.container.circle-line-container > div.row.lined-cir > div:nth-child(1) > div{
+}
+ div.container.circle-line-container > div.row.lined-cir > div:nth-child(1) > div{
     padding-left:24px;
-  }
-
-  .subhead-steps{
+}
+ .subhead-steps{
     margin-top:140px;
     text-align:center;
-  }
+}
   .subhead-steps p{
     font-size:12px;
-  }
-  
+}
   .circle-line-container{
     padding-top:30px;
     padding-bottom:60px;
-  }
-
-#inicioinscripcion {
-width: 900px;
-color: #c4c4c4;
 }
-
  aside .fotocoordinador img{
     border-radius: 50%;
     box-shadow: 0 0 5px 1px #80808091;
@@ -1112,17 +1117,14 @@ color: #c4c4c4;
 aside div{
     color: #253D95;
 }
-
 aside .botonenlace {
     max-width: 47px;
     margin-bottom: 20px;
 }
-
 .fotocoordinador p{
     margin-top: 6px;
     margin-bottom: 0rem;
 }
-
 #cargacademica > button,#pago > button:nth-child(3),#pago > button:nth-child(4),#cierre > button{
     width: 215px;
 }
@@ -1135,7 +1137,6 @@ aside .botonenlace {
     font-size: 16px;
     margin-bottom: 45px;
 }
-
 #pago > button:nth-child(2){
     padding: 4px 82px;
 }
@@ -1210,7 +1211,6 @@ body > aside{
   opacity: 50%;
   color: white;
 }
-
 /*Cuenta de alumno*/
 .saldodelalumno {
     background-color: white;
@@ -1222,6 +1222,7 @@ body > aside{
     text-align:center;
     padding: 10px;
     margin-block: 25px;
+    margin-left: 100px
 }
 body > section.row.justify-content-center > div:nth-child(1) > div.cuentafotoalumno > img{
     border-radius: 10%;
@@ -1255,20 +1256,42 @@ body > section.row.justify-content-center > div > div.col-12.col-sm-6.col-lg-4 >
     color:#253D95;
     background-color: #E5E5E5;
     padding: 30px 106px;
-    margin-block: 30px;
-    
+    margin-block: 30px;   
 }
 body > section:nth-child(3) > div > img{
     padding: 30px;
 }
+body > section:nth-child(4) > div > div > a{
+    position: relative;
+    top: -95px;
+    right: -75px;  
+}
 
+.justify-content-center{
+    
+    margin-block-end: 55px;
+    margin-top: 15px;
+}
+.formulariopagoalumno{
+    margin-left: -80px;
+}
 
+.saldodelalumno input{
+    background-color: #253D95;
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 4px 40px;
+    margin-bottom: 32px;
+    margin-top: 30px;
+}
 
-
-
-
-
-
+.cuentafotoalumno{
+    justify-content: center;
+    margin-left: 50px;
+}
 
 
 
