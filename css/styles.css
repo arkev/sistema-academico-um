@@ -615,6 +615,7 @@ width: 100%;
 }
 #Materias.row, #zona-inicial.row, #Alumnos.row {
     --bs-gutter-x: none;
+    margin-bottom: 0;
 }
 .EntradaMaterias, .PerfilAlumno{
     width: 321px;
@@ -912,7 +913,6 @@ padding-right: 25px;
         margin-top: 50px;
     }
 }
-
 
 
 
