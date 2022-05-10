@@ -581,13 +581,15 @@ border-radius: 50%;
     color: #c0c0c0;
     display: -webkit-flex;
     display: flex;
+    align-items: center;
+    padding: 5px;
 }
 .cambiantes > p {
-    margin-right: 16px;
+    margin: 8px;
     text-align: center;
     display: -webkit-flex;
     display: flex;
-    margin-bottom: 0%;
+    margin-bottom:none;
 }
 #zona-cambiantes {
     background-color: #253D94;
@@ -604,6 +606,7 @@ select {
     color: #253D94;
     padding: 4px 40px;
     border-radius: 5px;
+    height: 2.5em;
 }
 #Materias{
     margin: 16px;
@@ -670,8 +673,6 @@ select {
     border-style: solid;
     color: #7A828A;
 }
-
-
 
 
 
