@@ -39,64 +39,64 @@
         background-size: cover;
     }   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#datosDelEmpleadoVre{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+ }
+ #datosDelEmpleadoVre > section{
+     background-color:white;
+     border-radius: 20px;
+     box-shadow: 0 0 7px 2px #80808091;
+     padding: 40px;
+     position: relative;
+     margin-bottom: 2rem;
+ }
+ #datosDelEmpleadoVre img {
+     border-radius: 20px;
+     max-width: 270px;
+ }
+ #datosDelEmpleadoVre #zona-iconosVre img {
+    max-width: 25px;
+    border-radius: 0%;
+}
+ #datosDelEmpleadoVre > section > div > div:nth-child(1){
+     text-align: center;
+ }
+ #nombreEmpleadoVre{
+     font-size:23px;
+     font-weight: 600;
+     margin-bottom: 0;
+ }
+ #datosDelEmpleadoVre > section > div > div:nth-child(2){
+     text-align: left;
+     align-self: left;
+ }
+ #datosDelEmpleadoVre > section > div > div:nth-child(2) div{
+     margin-bottom: 15px;
+ }
+ .zona-iconosVre p{
+    margin-bottom: 0%;
+    margin-left:5px;
+ }
+ #I-MatriculaVre,  #I-TelefonoVre,  #I-MailVre  {
+     display: flex;
+ }
+ #I-TelefonoVre img{
+     height: 17px;
+     width: 17px;
+ }
+ #I-MailVre img{
+     width: 25px;
+ }
+ #NombreEmpleadoVre{
+     font-size: 25px;
+     font-weight: bold;
+ }
+ @media (min-width: 476px){
+#InformacionEmpleadoVre{
+    margin-top: 20px;
+}
 
 
 
