@@ -595,6 +595,7 @@ border-radius: 50%;
 }
 #zona-inicial {
     display: flex;
+    justify-content: center;
 }
 #zona-cambiantes select {
     margin-left: 10px;
@@ -602,10 +603,15 @@ border-radius: 50%;
     padding: 4px 10px;
     border-radius: 5px;
     height: 2.5em;
+    width: 100%;
 }
 #Materias, #Alumnos{
 background-color:#E5E5E5;
 padding: 15px;
+width: 100%;
+}
+#Materias.row, #zona-inicial.row {
+    --bs-gutter-x: none;
 }
 .EntradaMaterias, .PerfilAlumno{
     width: 321px;
@@ -634,17 +640,19 @@ padding: 15px;
 }
 #morado {
     background-color: #6727A3;
+    width: 100%;
 }
 .BotonesExtra {
     margin-top: 26px;
+    display: flex;
+    flex-direction: column;
 }
 #BotonesInicioPD .vblanco{
     border-color: #253D94;
     color: #253D94;
 }
-@media (min-width: 476px){
+@media (min-width: 390px){
     #BotonesInicioPD{
-        margin: 0px 20% 0% 20%;
         display: flex;
         flex-direction: column;
     }
@@ -659,12 +667,14 @@ padding: 15px;
 }
 @media (min-width: 768px){
     #BotonesInicioPD {
-        margin-left: 73px;
         margin-top: 25px;
         flex-direction: row;
     }
     #BotonesInicioPD .vblanco{
         margin-left: 13px;
+    }
+    #BotonesInicioPD > button:nth-child(1){
+        margin-left: 0px;
     }
     #botoncalendario{
         display: flex;
@@ -891,16 +901,6 @@ padding-right: 25px;
         margin-top: 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
