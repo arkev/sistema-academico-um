@@ -87,6 +87,12 @@
     margin-top: 20px;
 }
 }
+body > div:nth-child(4) > div > div:nth-child(3) > div > div.card-header{
+    background-color: #253D94;
+    color: white;
+    border-radius: 0.8rem 0.2rem;
+}
+
 @media (min-width: 768px){
     #UMVirtual{
         background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
@@ -99,12 +105,6 @@
         background-size: cover;
     }   
 }
-
-
-
-
-
-
 
 
 
@@ -995,6 +995,7 @@ padding-right: 25px;
 
 
 
+
 /* /Analí */
 /* Emely 1000-1501 */
 /*Inicio Inscripción*/
@@ -1276,7 +1277,6 @@ body > section:nth-child(4) > div > div > a{
     justify-content: center;
     margin-left: 50px;
 }
-
 
 
 
