@@ -582,10 +582,13 @@ border-radius: 50%;
 }
 .cambiantes > p {
     margin: 8px;
-    text-align: center;
     display: flex;
     margin-bottom:none;
 }
+#zona-cambiantes > div > div.cambiantes.col-12.col-lg-7 > p{
+    width: 221px;
+}
+
 #zona-cambiantes {
     background-color: #253D94;
     display: flex;
@@ -610,7 +613,7 @@ background-color:#E5E5E5;
 padding: 15px;
 width: 100%;
 }
-#Materias.row, #zona-inicial.row {
+#Materias.row, #zona-inicial.row, #Alumnos.row {
     --bs-gutter-x: none;
 }
 .EntradaMaterias, .PerfilAlumno{
@@ -650,28 +653,33 @@ width: 100%;
 #BotonesInicioPD .vblanco{
     border-color: #253D94;
     color: #253D94;
+    padding:4px 4px;;
 }
-@media (min-width: 390px){
-    #BotonesInicioPD{
-        display: flex;
-        flex-direction: column;
-    }
+.botones-superiores{
+    display: flex;
+}
+#contenedor-botones{
+    padding: 5px;
+    margin-top: 5px;
+}
+@media (min-width: 360px){
     #botoncalendario {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: -30px;
     }
     .container{
         max-width: 460px;
+    }
+    #zona-cambiantes > div > div.cambiantes.col-12.col-lg-5 > p{
+        width: 221px;
     }
 }
 @media (min-width: 768px){
     #BotonesInicioPD {
         margin-top: 25px;
         flex-direction: row;
-    }
-    #BotonesInicioPD .vblanco{
-        margin-left: 13px;
     }
     #BotonesInicioPD > button:nth-child(1){
         margin-left: 0px;
@@ -683,6 +691,9 @@ width: 100%;
     }
     .container{
         max-width: none;
+    }
+    #zona-cambiantes > div > div.cambiantes.col-12.col-lg-5 > p{
+        width: 100px;
     }
 }
 .EntradaMaterias h2 {
@@ -901,17 +912,6 @@ padding-right: 25px;
         margin-top: 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
