@@ -996,7 +996,6 @@ select {
 
 
 
-
 /* /Analí */
 /* Emely 1000-1501 */
 /*Inicio Inscripción*/
@@ -1011,7 +1010,6 @@ select {
     justify-content: center;
     margin: 50px 10px;
     }
-
 #Periodo,#Planacademico,#Modalidad{
     background-color: #EDF2F7;
     border-radius: 10px;
@@ -1038,7 +1036,6 @@ select {
 #inicioinscripcion > section > form{
     justify-content: center;
 }
-
 /*Proceso de inscripcion*/
 #asuntosprevios,#cargacademica,#pago,#cierre{
     background: #EDF2F7;
@@ -1080,7 +1077,7 @@ button{
     margin-right:8vw;
 }
   .lined-cir{
-    margin-top:20px ;
+  
     text-align:center;
 }
   .circle-yellow{
@@ -1099,14 +1096,13 @@ button{
     padding-left:24px;
 }
  .subhead-steps{
-    margin-top:140px;
+    margin-top:65px;
     text-align:center;
 }
   .subhead-steps p{
     font-size:12px;
 }
   .circle-line-container{
-    padding-top:30px;
     padding-bottom:60px;
 }
  aside .fotocoordinador img{
@@ -1117,7 +1113,6 @@ button{
 aside div{
     color: #253D95;
 }
-
 .fotocoordinador p{
     margin-top: 6px;
     margin-bottom: 0rem;
@@ -1204,6 +1199,9 @@ body > aside{
   opacity: 50%;
   color: white;
 }
+body > aside > div.fotocoordinador{
+    margin-top: 1em;
+}
 /*Cuenta de alumno*/
 .saldodelalumno {
     background-color: white;
@@ -1214,15 +1212,15 @@ body > aside{
     height: 126px;
     text-align:center;
     padding: 10px;
-    margin-block: 25px;
-    margin-left: 100px
+    margin: 5px auto;
+    display: block;
+    margin-block: 20px;
 }
 body > section.row.justify-content-center > div:nth-child(1) > div.cuentafotoalumno > img{
     border-radius: 10%;
     width: 250px;
-    margin: 5px;
-    justify-content: center;
-    margin-left: 25px;
+    margin: 5px auto;
+    display: block;
 }
 body > section.row.justify-content-center > div > div.col-12.col-sm-6.col-lg-4 > div.col-12.col-sm-6.col-lg-4 > div > div:nth-child(2) > input[type=submit]{
     border-radius: 25px;
@@ -1239,7 +1237,7 @@ body > section.row.justify-content-center > div > div.col-12.col-sm-6.col-lg-4 >
     background-color:#EDF2F7;
     border-radius: 10px;
     border-style: hidden;
-    width: 500px;
+    width: 100%;
     color: #212121;
     margin: 20px;
     padding: 5px;
@@ -1259,16 +1257,11 @@ body > section:nth-child(4) > div > div > a{
     top: -95px;
     right: -75px;  
 }
-
 .justify-content-center{
     
     margin-block-end: 55px;
     margin-top: 15px;
 }
-.formulariopagoalumno{
-    margin-left: -80px;
-}
-
 .saldodelalumno input{
     background-color: #253D95;
     border-radius: 25px;
@@ -1280,11 +1273,17 @@ body > section:nth-child(4) > div > div > a{
     margin-bottom: 32px;
     margin-top: 30px;
 }
-
 .cuentafotoalumno{
     justify-content: center;
     margin-left: 50px;
 }
+
+
+
+
+
+
+
 
 
 
