@@ -87,6 +87,12 @@
     margin-top: 20px;
 }
 }
+body > div:nth-child(4) > div > div:nth-child(3) > div > div.card-header-add{
+    background-color: #253D94;
+    color: white;
+    border-radius: 0.8rem 0.2rem;
+}
+
 @media (min-width: 768px){
     #UMVirtual{
         background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
@@ -99,12 +105,6 @@
         background-size: cover;
     }   
 }
-
-
-
-
-
-
 
 
 
@@ -582,10 +582,13 @@ border-radius: 50%;
 }
 .cambiantes > p {
     margin: 8px;
-    text-align: center;
     display: flex;
     margin-bottom:none;
 }
+#zona-cambiantes > div > div.cambiantes.col-12.col-lg-7 > p{
+    width: 221px;
+}
+
 #zona-cambiantes {
     background-color: #253D94;
     display: flex;
@@ -595,6 +598,7 @@ border-radius: 50%;
 }
 #zona-inicial {
     display: flex;
+    justify-content: center;
 }
 #zona-cambiantes select {
     margin-left: 10px;
@@ -602,10 +606,16 @@ border-radius: 50%;
     padding: 4px 10px;
     border-radius: 5px;
     height: 2.5em;
+    width: 100%;
 }
 #Materias, #Alumnos{
 background-color:#E5E5E5;
 padding: 15px;
+width: 100%;
+}
+#Materias.row, #zona-inicial.row, #Alumnos.row {
+    --bs-gutter-x: none;
+    margin-bottom: 0;
 }
 .EntradaMaterias, .PerfilAlumno{
     width: 321px;
@@ -634,37 +644,46 @@ padding: 15px;
 }
 #morado {
     background-color: #6727A3;
+    width: 100%;
 }
 .BotonesExtra {
     margin-top: 26px;
+    display: flex;
+    flex-direction: column;
 }
 #BotonesInicioPD .vblanco{
     border-color: #253D94;
     color: #253D94;
+    padding:4px 4px;;
 }
-@media (min-width: 476px){
-    #BotonesInicioPD{
-        margin: 0px 20% 0% 20%;
-        display: flex;
-        flex-direction: column;
-    }
+.botones-superiores{
+    display: flex;
+}
+#contenedor-botones{
+    padding: 5px;
+    margin-top: 5px;
+}
+@media (min-width: 360px){
     #botoncalendario {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: -30px;
     }
     .container{
         max-width: 460px;
     }
+    #zona-cambiantes > div > div.cambiantes.col-12.col-lg-5 > p{
+        width: 221px;
+    }
 }
 @media (min-width: 768px){
     #BotonesInicioPD {
-        margin-left: 73px;
         margin-top: 25px;
         flex-direction: row;
     }
-    #BotonesInicioPD .vblanco{
-        margin-left: 13px;
+    #BotonesInicioPD > button:nth-child(1){
+        margin-left: 0px;
     }
     #botoncalendario{
         display: flex;
@@ -673,6 +692,9 @@ padding: 15px;
     }
     .container{
         max-width: none;
+    }
+    #zona-cambiantes > div > div.cambiantes.col-12.col-lg-5 > p{
+        width: 100px;
     }
 }
 .EntradaMaterias h2 {
@@ -891,28 +913,6 @@ padding-right: 25px;
         margin-top: 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1281,31 +1281,6 @@ body > section:nth-child(4) > div > div > a{
     justify-content: center;
     margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
