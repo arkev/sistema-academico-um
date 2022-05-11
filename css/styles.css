@@ -1681,6 +1681,47 @@ body > section:nth-child(4) > div > div > a{
  #historial-candados > div > h2{
      color: #5b5b5b;
  }
+ #evaluarMateria button{
+    margin-right: 0.5rem;
+    margin-bottom: 16px;
+    padding: 4px 25px;
+ }
+
+ #esquemaListado{
+    background-color: #f4f0f1;
+    padding:3rem 0;
+ }
+ #esquemaListado table>:not(caption)>*>* {
+    border-bottom-width:0;
+}
+ #esquemaListado > div > div > table{
+     box-shadow: 0 0 20px #00000050;
+     border-radius: 20px;
+     font-size: .6em;
+     width: 95%;
+     margin: 0 auto 2.5rem;
+ }
+ #esquemaListado > div > div > table > thead > tr > th:nth-child(1){
+    border-top-left-radius: 20px;
+ }
+ #esquemaListado > div > div > table > tfoot > tr > th:nth-child(1){
+    border-bottom-left-radius: 20px;
+ }
+ #esquemaListado > div > div > table > tfoot > tr > td:last-child{
+    border-bottom-right-radius: 20px;
+ }
+ #esquemaListado > div > div > table > thead > tr > th:last-child{
+    border-top-right-radius: 20px;
+ }
+#esquemaListado > div > div > table > thead > * > *, #esquemaListado > div > div > table > tfoot > * > *{
+    background-color: #253D94;
+}
+#esquemaListado > div > div > table > tfoot > tr > th:nth-child(3){
+    text-align: right;
+}
+#esquemaListado > div > div > table > tfoot button{
+    margin-bottom: 0;
+}
  
  @media (min-width: 576px){
      #datosDelAlumno > aside > div{
@@ -1689,6 +1730,9 @@ body > section:nth-child(4) > div > div > a{
      #historial-candados {
          font-size: .9rem;
      }
+     #esquemaListado > div > div > table{
+        font-size: .7em;
+    }
  }
  @media (min-width: 768px){
      #datosDelAlumno > section > div > div:nth-child(1){
@@ -1698,6 +1742,9 @@ body > section:nth-child(4) > div > div > a{
      #historial-candados {
          font-size: 1rem;
      }
+     #esquemaListado > div > div > table{
+        font-size: .8rem;
+    }
      #datosDelAlumno > aside > div{
          margin-left: 2rem;
          background: #253d95;
@@ -1705,7 +1752,7 @@ body > section:nth-child(4) > div > div > a{
          color: white;
          text-align: center;
      }
-     footer a{
+     #captura-candados > footer > div > div > div{
          text-align: left;
      }
      footer p{
