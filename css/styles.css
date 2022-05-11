@@ -1697,6 +1697,9 @@ body > section:nth-child(4) > div > div > a{
 #esquemaListado > div > div > table > tfoot button{
     margin-bottom: 0;
 }
+#esquemaListado > .container > .row{
+    overflow-x: scroll;
+}
  
  @media (min-width: 576px){
      #datosDelAlumno > aside > div{
