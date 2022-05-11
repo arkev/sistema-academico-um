@@ -27,6 +27,72 @@
     padding: 4px 20px;
 }
 
+
+#datosDelEmpleadoVre{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+ }
+ #datosDelEmpleadoVre > section{
+     background-color:white;
+     border-radius: 20px;
+     box-shadow: 0 0 7px 2px #80808091;
+     padding: 40px;
+     position: relative;
+     margin-bottom: 2rem;
+ }
+ #datosDelEmpleadoVre img {
+     border-radius: 20px;
+     max-width: 270px;
+ }
+ #datosDelEmpleadoVre #zona-iconosVre img {
+    max-width: 25px;
+    border-radius: 0%;
+}
+ #datosDelEmpleadoVre > section > div > div:nth-child(1){
+     text-align: center;
+ }
+ #nombreEmpleadoVre{
+     font-size:23px;
+     font-weight: 600;
+     margin-bottom: 0;
+ }
+ #datosDelEmpleadoVre > section > div > div:nth-child(2){
+     text-align: left;
+     align-self: left;
+ }
+ #datosDelEmpleadoVre > section > div > div:nth-child(2) div{
+     margin-bottom: 15px;
+ }
+ .zona-iconosVre p{
+    margin-bottom: 0%;
+    margin-left:5px;
+ }
+ #I-MatriculaVre,  #I-TelefonoVre,  #I-MailVre  {
+     display: flex;
+ }
+ #I-TelefonoVre img{
+     height: 17px;
+     width: 17px;
+ }
+ #I-MailVre img{
+     width: 25px;
+ }
+ #NombreEmpleadoVre{
+     font-size: 25px;
+     font-weight: bold;
+ }
+ @media (min-width: 476px){
+#InformacionEmpleadoVre{
+    margin-top: 20px;
+}
+}
+body > div:nth-child(4) > div > div:nth-child(3) > div > div.card-header-add{
+    background-color: #253D94;
+    color: white;
+    border-radius: 0.8rem 0.2rem;
+}
+
 @media (min-width: 768px){
     #UMVirtual{
         background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
@@ -39,72 +105,6 @@
         background-size: cover;
     }   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -513,7 +513,6 @@ img {
 #CierrePerfil{
     background-color: transparent;
     border-bottom: none;
-    -webkit-box-decoration-break: none;
     box-decoration-break: none;
     outline: none;
 }
@@ -560,9 +559,7 @@ border-radius: 50%;
     outline: none;
 }
 .navbar-nav {
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: column;
     flex-direction: column;
     padding-left: 20px;
     margin-bottom: 0;
@@ -573,61 +570,67 @@ border-radius: 50%;
 }
 /*Docente*/
 #TitutloSeccion h1{
-    margin: 36px 36px 36px 36px;
+    margin: 36px 73px 36px 73px;
     color: #253D94;
     font-weight: bold;
 }
 .cambiantes {
     color: #c0c0c0;
-    display: -webkit-flex;
     display: flex;
     align-items: center;
     padding: 5px;
 }
 .cambiantes > p {
     margin: 8px;
-    text-align: center;
-    display: -webkit-flex;
     display: flex;
     margin-bottom:none;
 }
+#zona-cambiantes > div > div.cambiantes.col-12.col-lg-7 > p{
+    width: 221px;
+}
+
 #zona-cambiantes {
     background-color: #253D94;
-    display: -webkit-flex;
     display: flex;
     border-radius: 5px;
+    padding: 1em 1.5em;
+    margin-bottom: 1em;
 }
 #zona-inicial {
-    display: -webkit-flex;
     display: flex;
+    justify-content: center;
 }
-select {
+#zona-cambiantes select {
     margin-left: 10px;
     color: #253D94;
-    padding: 4px 40px;
+    padding: 4px 10px;
     border-radius: 5px;
     height: 2.5em;
+    width: 100%;
 }
-#Materias{
-    margin: 16px;
+#Materias, #Alumnos{
+background-color:#E5E5E5;
+padding: 15px;
+width: 100%;
 }
-.EntradaMaterias{
-    background-color: #444444;
-    border-radius: 5%;
-    width: 350px;
+#Materias.row, #zona-inicial.row, #Alumnos.row {
+    --bs-gutter-x: none;
+    margin-bottom: 0;
+}
+.EntradaMaterias, .PerfilAlumno{
+    width: 321px;
     text-align: center;
-    display:-webkit-flex;
-    display:flex;
-    -webkit-flex-direction: column;
-    flex-direction: column; 
-    -webkit-align-content: flex-start; 
-    align-content: flex-start;   
-    background-color:white;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 7px 2px #80808091;
     padding: 40px;
     position: relative;
-    margin-bottom: 2rem;
+    margin: 23px;
+}
+.EntradaMaterias p{
+    text-align: center;
 }
 .EntradaMaterias > div::before {
     content: "";
@@ -641,18 +644,57 @@ select {
 }
 #morado {
     background-color: #6727A3;
+    width: 100%;
 }
 .BotonesExtra {
     margin-top: 26px;
+    display: flex;
+    flex-direction: column;
 }
-@media (min-width: 476px){
-    #BotonesInicioPD{
-        margin: 36px 10% 0% 10%;
+#BotonesInicioPD .vblanco{
+    border-color: #253D94;
+    color: #253D94;
+    padding:4px 4px;;
+}
+.botones-superiores{
+    display: flex;
+}
+#contenedor-botones{
+    padding: 5px;
+    margin-top: 5px;
+}
+@media (min-width: 360px){
+    #botoncalendario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -30px;
+    }
+    .container{
+        max-width: 460px;
+    }
+    #zona-cambiantes > div > div.cambiantes.col-12.col-lg-5 > p{
+        width: 221px;
     }
 }
 @media (min-width: 768px){
     #BotonesInicioPD {
-        margin-left: 30px;
+        margin-top: 25px;
+        flex-direction: row;
+    }
+    #BotonesInicioPD > button:nth-child(1){
+        margin-left: 0px;
+    }
+    #botoncalendario{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .container{
+        max-width: none;
+    }
+    #zona-cambiantes > div > div.cambiantes.col-12.col-lg-5 > p{
+        width: 100px;
     }
 }
 .EntradaMaterias h2 {
@@ -673,247 +715,204 @@ select {
     border-style: solid;
     color: #7A828A;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#zona-inicial > section > button{
+    padding: 4px 15px;
+}
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1435px;
+    }
+}
+#Alumnos .vblanco{
+    padding: 4px 15px;
+    margin: 10px;
+}
+.BotonesSeleccionAlumno{
+    margin-top: 10px;
+}
+.Promedio-Carga{
+    display: flex;
+}
+.PerfilAlumno h2{
+    color: #253D94;
+    font-size: 16px;
+}
+.Promedio-Carga input{
+    width: 100px;
+}
+.fotoperfil img {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 30%;
+    margin-bottom: 30px;
+}
+.PerfilAlumno {
+    width: 321px;
+    height: 530px;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 40px;
+    position: relative;
+    margin: 23px;
+
+}
+.barradeavance{
+    margin-bottom: 15px;
+}
+.Promedio-Carga{
+    margin-bottom: 30px;
+}
+.BotonesSeleccionAlumno img{
+    margin-bottom: 3px;
+}
+#arriba{
+    margin-bottom: 25px;
+}
+
+/*Inicio*/
+
+#datosDelEmpleado{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+ }
+ #datosDelEmpleado > section{
+     background-color:white;
+     border-radius: 20px;
+     box-shadow: 0 0 7px 2px #80808091;
+     padding: 40px;
+     position: relative;
+     margin-bottom: 2rem;
+ }
+ #datosDelEmpleado img {
+     width: 100%;
+     border-radius: 20px;
+     max-width: 270px;
+ }
+ #datosDelEmpleado #zona-iconos img {
+    max-width: 25px;
+    border-radius: 0%;
+}
+ #datosDelEmpleado > section > div > div:nth-child(1){
+     text-align: center;
+ }
+ #nombreEmpleado{
+     font-size:23px;
+     font-weight: 600;
+     margin-bottom: 0;
+ }
+ #datosDelEmpleado > section > div > div:nth-child(2){
+     text-align: center;
+     align-self: center;
+ }
+ #datosDelEmpleado > section > div > div:nth-child(2) div{
+     margin-bottom: 15px;
+ }
+ .zona-iconos p{
+    margin-bottom: 0%;
+    margin-left:5px;
+ }
+ #I-Matricula,  #I-Telefono,  #I-Mail  {
+     display: flex;
+ }
+ #I-Telefono img{
+     height: 17px;
+     width: 17px;
+ }
+ #I-Mail img{
+     width: 25px;
+ }
+ #NombreEmpleado{
+     font-size: 25px;
+     font-weight: bold;
+ }
+ @media (min-width: 476px){
+#InformacionEmpleado{
+    margin-top: 20px;
+}
+}
+@media (min-width: 768px){
+    #InformacionEmpleado{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    }
+#InformacionEmpleado p{
+     text-align: start;
+ }
+    .zona-iconos {
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+ #Comunicados{
+     background-color: #253D94;
+     padding: 50px;
+     padding-bottom: 70px;
+ }
+ #Comunicados h1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+ }
+ .ccomunicado{
+     background-color: #c0c0c0;
+ }
+ .ContenidoComunicados{
+     display: flex;
+ }
+ .Contenido-Comunicados h2{
+    color: #253D94;
+    font-size: 16px;
+}
+.ComunicadosIconos{
+    background-color: #BF74A4;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+.ComunicadosFondoIconos #Covid{
+    background-color: #64638F;
+} 
+.ComunicadosFondoIconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#MensajeComunicado{
+padding-top: 25px;
+padding-right: 25px;
+}
+#centrar{
+    display: flex;
+    justify-content: center;
+}
+.Contenido-Comunicados{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #31313191;
+    margin-top: 50px;
+}
+@media (min-width: 1080px){
+    .Contenido-Comunicados{
+        display: flex;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 0 7px 2px #31313191;
+        max-width: 75%;
+        margin-top: 50px;
+    }
+}
 
 
 
@@ -1004,24 +1003,24 @@ select {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 4px -1px #80808091;
-    margin: 40px auto;
     align-items: center;
     text-align: center;
     color: #c4c4c4;
-    justify-content: center;
-    margin: 50px 10px;
+    margin: 50px auto;
+    position: relative;
+    padding: 50px;
     }
-
 #Periodo,#Planacademico,#Modalidad{
     background-color: #EDF2F7;
     border-radius: 10px;
     border-style: hidden;
-    width: 504px;
+    width: 90%;
     height: 43px;
     margin: 20px;
     color: #7A828A;
+  
 }
-#inicioinscripcion > section::before {
+#inicioinscripcion > :before {
     content: "";
     background: #253d95;
     width: 50px;
@@ -1031,14 +1030,15 @@ select {
     top: 0;
     border-radius: 0 20px 20px 0;
 }
-#inicioinscripcion > section{
-    position: relative;
-    padding: 50px;
-}
 #inicioinscripcion > section > form{
     justify-content: center;
 }
-
+#inicio-inscripcion > section > div{
+    max-width: 800px;
+}
+#inicio-inscripcion .container{
+    width: 95%;
+}
 /*Proceso de inscripcion*/
 #asuntosprevios,#cargacademica,#pago,#cierre{
     background: #EDF2F7;
@@ -1080,7 +1080,7 @@ button{
     margin-right:8vw;
 }
   .lined-cir{
-    margin-top:20px ;
+  
     text-align:center;
 }
   .circle-yellow{
@@ -1099,14 +1099,14 @@ button{
     padding-left:24px;
 }
  .subhead-steps{
-    margin-top:140px;
+    margin-top:65px;
     text-align:center;
+    justify-content: center;
 }
   .subhead-steps p{
     font-size:12px;
 }
   .circle-line-container{
-    padding-top:30px;
     padding-bottom:60px;
 }
  aside .fotocoordinador img{
@@ -1117,7 +1117,6 @@ button{
 aside div{
     color: #253D95;
 }
-
 .fotocoordinador p{
     margin-top: 6px;
     margin-bottom: 0rem;
@@ -1204,6 +1203,9 @@ body > aside{
   opacity: 50%;
   color: white;
 }
+body > aside > div.fotocoordinador{
+    margin-top: 1em;
+}
 /*Cuenta de alumno*/
 .saldodelalumno {
     background-color: white;
@@ -1214,15 +1216,15 @@ body > aside{
     height: 126px;
     text-align:center;
     padding: 10px;
-    margin-block: 25px;
-    margin-left: 100px
+    margin: 5px auto;
+    display: block;
+    margin-block: 20px;
 }
 body > section.row.justify-content-center > div:nth-child(1) > div.cuentafotoalumno > img{
     border-radius: 10%;
     width: 250px;
-    margin: 5px;
-    justify-content: center;
-    margin-left: 25px;
+    margin: 5px auto;
+    display: block;
 }
 body > section.row.justify-content-center > div > div.col-12.col-sm-6.col-lg-4 > div.col-12.col-sm-6.col-lg-4 > div > div:nth-child(2) > input[type=submit]{
     border-radius: 25px;
@@ -1239,7 +1241,7 @@ body > section.row.justify-content-center > div > div.col-12.col-sm-6.col-lg-4 >
     background-color:#EDF2F7;
     border-radius: 10px;
     border-style: hidden;
-    width: 500px;
+    width: 100%;
     color: #212121;
     margin: 20px;
     padding: 5px;
@@ -1259,16 +1261,11 @@ body > section:nth-child(4) > div > div > a{
     top: -95px;
     right: -75px;  
 }
-
 .justify-content-center{
     
     margin-block-end: 55px;
     margin-top: 15px;
 }
-.formulariopagoalumno{
-    margin-left: -80px;
-}
-
 .saldodelalumno input{
     background-color: #253D95;
     border-radius: 25px;
@@ -1280,32 +1277,10 @@ body > section:nth-child(4) > div > div > a{
     margin-bottom: 32px;
     margin-top: 30px;
 }
-
 .cuentafotoalumno{
     justify-content: center;
     margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1776,77 +1751,3 @@ body > section:nth-child(4) > div > div > a{
          margin-left: 4rem;
      }
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
