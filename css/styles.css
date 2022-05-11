@@ -995,6 +995,7 @@ padding-right: 25px;
 
 
 
+
 /* /Analí */
 /* Emely 1000-1501 */
 /*Inicio Inscripción*/
@@ -1002,23 +1003,24 @@ padding-right: 25px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 4px -1px #80808091;
-    margin: 40px auto;
     align-items: center;
     text-align: center;
     color: #c4c4c4;
-    justify-content: center;
-    margin: 50px 10px;
+    margin: 50px auto;
+    position: relative;
+    padding: 50px;
     }
 #Periodo,#Planacademico,#Modalidad{
     background-color: #EDF2F7;
     border-radius: 10px;
     border-style: hidden;
-    width: 504px;
+    width: 90%;
     height: 43px;
     margin: 20px;
     color: #7A828A;
+  
 }
-#inicioinscripcion > section::before {
+#inicioinscripcion > :before {
     content: "";
     background: #253d95;
     width: 50px;
@@ -1028,12 +1030,14 @@ padding-right: 25px;
     top: 0;
     border-radius: 0 20px 20px 0;
 }
-#inicioinscripcion > section{
-    position: relative;
-    padding: 50px;
-}
 #inicioinscripcion > section > form{
     justify-content: center;
+}
+#inicio-inscripcion > section > div{
+    max-width: 800px;
+}
+#inicio-inscripcion .container{
+    width: 95%;
 }
 /*Proceso de inscripcion*/
 #asuntosprevios,#cargacademica,#pago,#cierre{
@@ -1097,6 +1101,7 @@ button{
  .subhead-steps{
     margin-top:65px;
     text-align:center;
+    justify-content: center;
 }
   .subhead-steps p{
     font-size:12px;
@@ -1276,11 +1281,6 @@ body > section:nth-child(4) > div > div > a{
     justify-content: center;
     margin-left: 50px;
 }
-
-
-
-
-
 
 
 
