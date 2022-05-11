@@ -27,12 +27,14 @@
     padding: 4px 20px;
 }
 
+/*Documentos del Extranjero*/
 
 #datosDelEmpleadoVre{
     font-size: 14px;
     display: flex;
     justify-content: center;
  }
+ 
  #datosDelEmpleadoVre > section{
      background-color:white;
      border-radius: 20px;
@@ -41,13 +43,19 @@
      position: relative;
      margin-bottom: 2rem;
  }
- #datosDelEmpleadoVre img {
+ #datosDelEmpleadoVre .fotojuan {
      border-radius: 20px;
      max-width: 270px;
+     width:80%;
+     border-radius: 20px;
  }
+ .zona-iconosVre{
+    border-radius: 20px;
+    max-width: 270px; 
+}
  #datosDelEmpleadoVre #zona-iconosVre img {
     max-width: 25px;
-    border-radius: 0%;
+    border-radius: 20%;
 }
  #datosDelEmpleadoVre > section > div > div:nth-child(1){
      text-align: center;
@@ -82,21 +90,124 @@
      font-size: 25px;
      font-weight: bold;
  }
- @media (min-width: 476px){
-#InformacionEmpleadoVre{
-    margin-top: 20px;
-}
-}
+ #datosDelEmpleadoVre > section > div > div:nth-child(1) > img{
+     border-radius: 20px;
+ }
+
+ body > div:nth-child(4) > div > div:nth-child(3) > div > div.card-header-add > div > div > div.col-8 > h5{
+    font-size: 0.95rem;
+    margin-left: 10px;
+    margin-top: 10px;
+
+ }
+ 
+ body > div:nth-child(4) > div > div:nth-child(1) > div, body > div:nth-child(4) > div > div:nth-child(2) > div{
+    margin-bottom: 1em
+ }
+ 
 body > div:nth-child(4) > div > div:nth-child(3) > div > div.card-header-add{
     background-color: #253D94;
     color: white;
     border-radius: 0.8rem 0.2rem;
 }
 
+
+/*Datos de Residencia*/
+
+#datos-de-residencia{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+ }
+ #datos-de-residencia .fotojuan {
+    border-radius: 20px;
+    max-width: 270px;
+    width:80%;
+    border-radius: 20px;
+}
+#datos-de-residencia  #zona-iconosVre img {
+    max-width: 25px;
+    border-radius: 20%;
+}
+#datos-de-residencia > section{
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px #80808091;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+#datos-de-residencia > section > div > div:nth-child(1) > img{
+    border-radius: 20px;
+}
+#datos-de-residencia > section > div > div:nth-child(1) {
+    text-align: center;
+}
+.formulario-datos-residencia input{
+    background-color:#EDF2F7;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+#datos-de-residencia > section > div > button{
+    width: 142px;
+    justify-items: center;
+}
+
+
+/*Media*/
+
+@media (min-width: 476px){
+#InformacionEmpleadoVre{
+    margin-top: 20px;
+}
+#datosDelEmpleadoVre section > div > div:nth-child(1) > img {
+    max-width: 270px;
+    width: 90%;
+}
+
+#InformacionEmpleadoVre{
+        margin-top: 20px;
+    }
+    #datos-de-residencia section > div > div:nth-child(1) > img {
+        max-width: 270px;
+        width: 90%;
+    }
+
+}
+@media (min-width: 476px){
+    #InformacionEmpleadoVre{
+        margin-top: 20px;
+    }
+    #datosDelEmpleadoVre section > div > div:nth-child(1) > img {
+        max-width: 270px;
+        width: 90%;
+    }
+    #NombreEmpleadoVre {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+
 @media (min-width: 768px){
     #UMVirtual{
         background:url(../images/mockuphandphone.jpg) no-repeat -226px top;
         background-size: cover;
+    }
+
+        #NombreEmpleadoVre {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: left;
+        }
     }   
 }
 @media (min-width: 992px){
@@ -105,117 +216,6 @@ body > div:nth-child(4) > div > div:nth-child(3) > div > div.card-header-add{
         background-size: cover;
     }   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1281,6 +1281,31 @@ body > section:nth-child(4) > div > div > a{
     justify-content: center;
     margin-left: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
