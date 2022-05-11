@@ -1700,6 +1700,29 @@ body > section:nth-child(4) > div > div > a{
 #esquemaListado > .container > .row{
     overflow-x: scroll;
 }
+
+.secciondeprocesos h3 {
+    color: #253D95;
+    background-color:initial;
+    padding:inherit;
+    margin-block:initial;
+}
+#seguros > section:nth-child(4) > div{
+    background-color: #E5E5E5;
+    padding: 30px 106px;
+    margin-block: 30px;
+}
+#seguros > section:nth-child(4) > div > div > div:nth-child(2) > p{
+    font-size: .8em;
+    margin: .8em auto;
+}
+#seguros > section:nth-child(4) > div{
+    padding: 30px 40px;
+}
+#seguros > section.container > img{
+    margin: 0 auto 3em;
+    display: block;
+}
  
  @media (min-width: 576px){
      #datosDelAlumno > aside > div{
@@ -1753,4 +1776,19 @@ body > section:nth-child(4) > div > div > a{
      #datosDelAlumno > aside > div{
          margin-left: 4rem;
      }
+     #seguros aside {
+        position: absolute;
+        top: 85px;
+        right: 25px;
+        width: 64px;
+    }
+    #seguros > aside > div.fotocoordinador > p{
+        font-size: .8em;
+    }
+    #seguros > aside > div.botonenlace > a > img{
+        width: 45px;
+    }
+    #seguros > section:nth-child(3) {
+        margin-top: 2rem;
+    }
  }
