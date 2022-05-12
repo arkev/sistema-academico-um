@@ -1275,7 +1275,7 @@ body > section:nth-child(4) > div > div > a{
     font-size: 16px;
     padding: 4px 40px;
     margin-bottom: 32px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .cuentafotoalumno{
     justify-content: center;
@@ -1726,7 +1726,7 @@ body > section:nth-child(4) > div > div > a{
     overflow-x: scroll;
 }
 
-.secciondeprocesos h3 {
+#seguros .secciondeprocesos h3 {
     color: #253D95;
     background-color:initial;
     padding:inherit;
